@@ -12,6 +12,16 @@ from scipy.optimize import leastsq
 
 import scipy.optimize as opt
 
+
+
+
+
+
+
+
+
+
+
 import scipy
 import matplotlib.pyplot as plt
 from scipy.stats import norm, poisson
