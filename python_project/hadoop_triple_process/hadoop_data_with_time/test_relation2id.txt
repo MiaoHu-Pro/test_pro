@@ -1,0 +1,31 @@
+30
+is part of	10
+breaks	8
+fixes	26
+Dependency	28
+is cloned by	22
+Testing discovered	30
+is duplicated by	4
+is caused by	17
+depends upon	3
+Dependent	24
+Discovered while testing	29
+is a parent of	20
+is blocked by	9
+relates to	0
+is related to	1
+is fixed by	27
+requires	12
+is depended upon by	2
+blocks	6
+duplicates	5
+is broken by	11
+incorporates	7
+is a child of	21
+contains	13
+is required by	15
+causes	16
+Is contained by	14
+is a clone of	23
+is superceded by	19
+supercedes	18

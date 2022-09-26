@@ -1,0 +1,1822 @@
+1821
+PIG-5414	duplicates	PIG-5405
+PIG-5409	is related to	PIG-5405
+PIG-5405	is duplicated by	PIG-5414
+PIG-5405	relates to	PIG-5409
+PIG-5377	relates to	PIG-4894
+PIG-5373	is broken by	PIG-3655
+PIG-5370	is related to	PIG-5312
+PIG-5363	requires	TEZ-3983
+PIG-5361	relates to	PIG-3038
+PIG-5358	is related to	OOZIE-3348
+PIG-5355	relates to	PIG-4700
+PIG-5353	is a clone of	PIG-766
+PIG-5350	duplicates	PIG-5312
+PIG-5343	relates to	PIG-5282
+PIG-5324	relates to	PIG-5323
+PIG-5323	is related to	PIG-5324
+PIG-5316	relates to	HIVE-18030
+PIG-5313	requires	TEZ-3865
+PIG-5312	is duplicated by	PIG-5350
+PIG-5312	relates to	PIG-5370
+PIG-5301	relates to	PIG-5043
+PIG-5290	is related to	PIG-3815
+PIG-5290	is related to	PIG-2672
+PIG-5285	is broken by	HIVE-17251
+PIG-5282	is related to	PIG-5343
+PIG-5278	is broken by	PIG-5264
+PIG-5277	relates to	PIG-3655
+PIG-5266	requires	TEZ-1190
+PIG-5264	breaks	PIG-5278
+PIG-5256	incorporates	PIG-3000
+PIG-5253	blocks	OOZIE-2973
+PIG-5249	is related to	PIG-5248
+PIG-5248	relates to	PIG-5249
+PIG-5237	relates to	PIG-5202
+PIG-5234	is related to	PIG-5186
+PIG-5233	relates to	PIG-5134
+PIG-5232	is related to	PIG-5228
+PIG-5228	relates to	PIG-5232
+PIG-5226	is duplicated by	PIG-3113
+PIG-5223	relates to	PIG-5211
+PIG-5211	is related to	PIG-5223
+PIG-5211	relates to	PIG-4449
+PIG-5206	relates to	PIG-5165
+PIG-5204	duplicates	PIG-4621
+PIG-5202	is related to	PIG-5237
+PIG-5201	is related to	PIG-2537
+PIG-5201	relates to	PIG-3368
+PIG-5187	depends upon	PIG-5179
+PIG-5186	relates to	PIG-5234
+PIG-5182	relates to	PIG-5110
+PIG-5179	is depended upon by	PIG-5187
+PIG-5175	incorporates	PIG-4640
+PIG-5175	is related to	PIG-4640
+PIG-5172	duplicates	PIG-5163
+PIG-5171	duplicates	PIG-5130
+PIG-5165	is related to	PIG-5206
+PIG-5163	is duplicated by	PIG-5172
+PIG-5161	incorporates	PIG-5138
+PIG-5156	is duplicated by	PIG-5152
+PIG-5156	relates to	PIG-5105
+PIG-5155	is broken by	PIG-4891
+PIG-5155	is related to	PIG-5142
+PIG-5155	is related to	PIG-5143
+PIG-5155	is related to	PIG-5144
+PIG-5155	is related to	PIG-5148
+PIG-5155	relates to	PIG-5146
+PIG-5155	relates to	PIG-5150
+PIG-5154	breaks	PIG-5139
+PIG-5154	breaks	PIG-5141
+PIG-5154	breaks	PIG-5146
+PIG-5154	breaks	PIG-5150
+PIG-5154	relates to	PIG-5040
+PIG-5152	duplicates	PIG-5156
+PIG-5152	is duplicated by	PIG-5149
+PIG-5150	is broken by	PIG-5154
+PIG-5150	is related to	PIG-5155
+PIG-5149	duplicates	PIG-5152
+PIG-5148	relates to	PIG-5155
+PIG-5147	duplicates	PIG-5146
+PIG-5146	is broken by	PIG-5154
+PIG-5146	is duplicated by	PIG-5147
+PIG-5146	is related to	PIG-5155
+PIG-5144	relates to	PIG-5155
+PIG-5143	relates to	PIG-5155
+PIG-5142	relates to	PIG-5155
+PIG-5141	is broken by	PIG-5154
+PIG-5140	relates to	PIG-1513
+PIG-5139	is broken by	PIG-5154
+PIG-5138	is part of	PIG-5161
+PIG-5134	is related to	PIG-5233
+PIG-5133	requires	PIG-5132
+PIG-5132	is required by	PIG-5133
+PIG-5130	is duplicated by	PIG-5171
+PIG-5117	relates to	PIG-4963
+PIG-5110	is related to	PIG-5182
+PIG-5105	is related to	PIG-5156
+PIG-5105	relates to	PIG-4837
+PIG-5083	is broken by	PIG-3591
+PIG-5082	is part of	PIG-5078
+PIG-5080	is depended upon by	ZEPPELIN-2232
+PIG-5078	incorporates	PIG-5082
+PIG-5069	duplicates	PIG-3417
+PIG-5056	relates to	AVRO-997
+PIG-5045	is duplicated by	PIG-2557
+PIG-5043	is related to	PIG-5301
+PIG-5040	is related to	PIG-5154
+PIG-5028	is blocked by	PIG-2597
+PIG-5028	is related to	PIG-4897
+PIG-5019	relates to	PIG-2207
+PIG-4974	relates to	PIG-3938
+PIG-4968	duplicates	PIG-4933
+PIG-4967	relates to	MAPREDUCE-6762
+PIG-4963	is related to	PIG-5117
+PIG-4962	relates to	PIG-4948
+PIG-4959	is related to	PIG-4958
+PIG-4958	is related to	TEZ-3385
+PIG-4958	relates to	PIG-4959
+PIG-4955	duplicates	PIG-4683
+PIG-4953	is related to	PIG-4940
+PIG-4949	is related to	PIG-4417
+PIG-4948	is related to	PIG-4962
+PIG-4940	relates to	PIG-4953
+PIG-4939	blocks	PHOENIX-3464
+PIG-4933	is duplicated by	PIG-4968
+PIG-4933	is related to	PIG-2315
+PIG-4931	is related to	PIG-3269
+PIG-4928	relates to	PIG-4921
+PIG-4925	duplicates	PIG-2348
+PIG-4924	is related to	TEZ-3271
+PIG-4923	relates to	PIG-4728
+PIG-4921	is broken by	PIG-3524
+PIG-4921	is related to	PIG-4928
+PIG-4918	is duplicated by	PIG-4917
+PIG-4917	duplicates	PIG-4918
+PIG-4915	is related to	PIG-4574
+PIG-4914	is related to	PIG-4821
+PIG-4902	is broken by	PIG-4884
+PIG-4900	duplicates	PIG-4728
+PIG-4897	is broken by	PIG-3359
+PIG-4897	relates to	PIG-5028
+PIG-4896	is broken by	PIG-3359
+PIG-4894	is related to	PIG-5377
+PIG-4891	breaks	PIG-5155
+PIG-4891	relates to	PIG-4771
+PIG-4889	is related to	PIG-2507
+PIG-4884	breaks	PIG-4902
+PIG-4880	is related to	PIG-3359
+PIG-4878	is broken by	PIG-4847
+PIG-4877	is broken by	PIG-4817
+PIG-4876	contains	PIG-4842
+PIG-4876	contains	PIG-4857
+PIG-4875	is related to	PIG-4874
+PIG-4874	relates to	PIG-4875
+PIG-4871	is related to	PIG-4797
+PIG-4870	relates to	PIG-4810
+PIG-4869	is broken by	PIG-4411
+PIG-4869	relates to	TEZ-3187
+PIG-4866	relates to	PIG-4844
+PIG-4857	Is contained by	PIG-4876
+PIG-4853	is related to	TEZ-3244
+PIG-4851	is broken by	PIG-3123
+PIG-4847	breaks	PIG-4878
+PIG-4844	is duplicated by	PIG-4348
+PIG-4844	is related to	PIG-4866
+PIG-4842	Is contained by	PIG-4876
+PIG-4837	is related to	PIG-5105
+PIG-4832	duplicates	PIG-4831
+PIG-4831	is duplicated by	PIG-4832
+PIG-4825	requires	PIG-4820
+PIG-4821	relates to	PIG-4914
+PIG-4820	is required by	PIG-4825
+PIG-4818	is related to	PIG-2507
+PIG-4817	breaks	PIG-4877
+PIG-4810	is related to	PIG-4781
+PIG-4810	is related to	PIG-4870
+PIG-4797	relates to	PIG-4871
+PIG-4789	is part of	PIG-4690
+PIG-4784	blocks	PIG-4616
+PIG-4784	is blocked by	PIG-4783
+PIG-4783	blocks	PIG-4784
+PIG-4781	relates to	PIG-4810
+PIG-4778	blocks	PIG-4266
+PIG-4777	blocks	PIG-4266
+PIG-4776	blocks	PIG-4266
+PIG-4774	is related to	PIG-4184
+PIG-4771	is related to	PIG-4891
+PIG-4767	is related to	PIG-1669
+PIG-4766	requires	PIG-4709
+PIG-4743	relates to	PIG-4728
+PIG-4742	is blocked by	PIG-4417
+PIG-4740	is blocked by	PIG-4417
+PIG-4736	is broken by	PIG-4697
+PIG-4734	is broken by	PIG-4674
+PIG-4728	is duplicated by	PIG-4535
+PIG-4728	is duplicated by	PIG-4900
+PIG-4728	is duplicated by	PIG-4631
+PIG-4728	is related to	PIG-4743
+PIG-4728	is related to	BIGTOP-2077
+PIG-4728	is related to	BIGTOP-2333
+PIG-4728	is related to	PIG-4923
+PIG-4722	requires	TEZ-2937
+PIG-4719	is blocked by	PIG-4704
+PIG-4714	is blocked by	TEZ-2851
+PIG-4714	is blocked by	HDFS-9184
+PIG-4713	is related to	PIG-2328
+PIG-4709	is required by	PIG-4766
+PIG-4705	duplicates	PIG-4703
+PIG-4704	blocks	PIG-4719
+PIG-4703	is duplicated by	PIG-4705
+PIG-4700	is related to	TEZ-808
+PIG-4700	is related to	PIG-5355
+PIG-4697	breaks	PIG-4736
+PIG-4694	is related to	PIG-4649
+PIG-4692	is related to	PIG-3957
+PIG-4691	is related to	PIG-4649
+PIG-4690	incorporates	PIG-4789
+PIG-4683	is duplicated by	PIG-4955
+PIG-4683	is related to	PIG-3591
+PIG-4679	is broken by	PIG-3754
+PIG-4676	duplicates	PIG-4534
+PIG-4676	duplicates	PIG-4629
+PIG-4676	is required by	BIGTOP-1913
+PIG-4674	breaks	PIG-4734
+PIG-4670	relates to	PIG-3204
+PIG-4667	relates to	PIG-4236
+PIG-4664	relates to	HIVE-10799
+PIG-4652	requires	TEZ-2715
+PIG-4649	is broken by	HIVE-11456
+PIG-4649	relates to	PIG-4694
+PIG-4649	relates to	PIG-4691
+PIG-4640	is part of	PIG-5175
+PIG-4640	relates to	PIG-5175
+PIG-4639	requires	PIG-4405
+PIG-4638	requires	PIG-4405
+PIG-4631	duplicates	PIG-4728
+PIG-4629	is duplicated by	PIG-4676
+PIG-4627	is broken by	PIG-4495
+PIG-4626	requires	TEZ-2710
+PIG-4626	requires	TEZ-3286
+PIG-4621	is duplicated by	PIG-5204
+PIG-4618	is duplicated by	PIG-4473
+PIG-4617	is broken by	PIG-3865
+PIG-4616	is blocked by	PIG-4784
+PIG-4600	duplicates	PIG-4591
+PIG-4591	duplicates	PIG-3251
+PIG-4591	is duplicated by	PIG-4600
+PIG-4587	is broken by	PIG-4377
+PIG-4580	is broken by	PIG-4377
+PIG-4574	relates to	PIG-4915
+PIG-4566	is related to	PIG-4066
+PIG-4564	incorporates	PIG-4012
+PIG-4564	is broken by	PIG-3979
+PIG-4556	is broken by	PIG-4247
+PIG-4552	blocks	PIG-4189
+PIG-4549	blocks	PIG-4189
+PIG-4545	is blocked by	PIG-4544
+PIG-4544	blocks	PIG-4545
+PIG-4544	supercedes	PIG-4138
+PIG-4541	is broken by	PIG-4377
+PIG-4536	relates to	PIG-419
+PIG-4536	requires	PIG-4449
+PIG-4535	duplicates	PIG-4728
+PIG-4534	blocks	BIGTOP-1913
+PIG-4534	is duplicated by	PIG-4676
+PIG-4534	relates to	HIVE-8979
+PIG-4533	relates to	PIG-3251
+PIG-4526	is related to	HADOOP-11843
+PIG-4526	is related to	AVRO-1537
+PIG-4526	relates to	PIG-3906
+PIG-4525	is duplicated by	PIG-2134
+PIG-4525	relates to	PIG-2134
+PIG-4508	relates to	TEZ-2317
+PIG-4504	is related to	SPARK-3655
+PIG-4500	is related to	TEZ-2168
+PIG-4495	breaks	PIG-4627
+PIG-4495	is duplicated by	PIG-3876
+PIG-4495	relates to	TEZ-1190
+PIG-4487	incorporates	PIG-4446
+PIG-4487	is part of	PIG-4483
+PIG-4483	incorporates	PIG-4487
+PIG-4482	is broken by	PIG-2778
+PIG-4473	duplicates	PIG-4618
+PIG-4460	is related to	PIG-4432
+PIG-4460	is related to	PIG-4445
+PIG-4453	relates to	PIG-4263
+PIG-4449	is related to	PIG-5211
+PIG-4449	is required by	PIG-4536
+PIG-4449	relates to	PIG-419
+PIG-4447	depends upon	HADOOP-9365
+PIG-4446	is part of	PIG-4487
+PIG-4446	is related to	TEZ-714
+PIG-4445	is related to	PIG-4432
+PIG-4445	relates to	PIG-4460
+PIG-4443	is broken by	TEZ-2192
+PIG-4443	is related to	HIVE-9845
+PIG-4443	is related to	TEZ-2144
+PIG-4442	is depended upon by	HADOOP-13525
+PIG-4442	is related to	HADOOP-13321
+PIG-4441	relates to	PIG-4429
+PIG-4434	is blocked by	TEZ-2234
+PIG-4434	is blocked by	TEZ-2232
+PIG-4434	is blocked by	TEZ-2233
+PIG-4434	is blocked by	TEZ-2242
+PIG-4434	is broken by	TEZ-2310
+PIG-4432	relates to	PIG-4445
+PIG-4432	relates to	PIG-4460
+PIG-4429	is related to	PIG-4441
+PIG-4424	requires	PIG-2597
+PIG-4422	is duplicated by	PIG-4200
+PIG-4417	blocks	PIG-4740
+PIG-4417	blocks	PIG-4742
+PIG-4417	is related to	HIVE-9664
+PIG-4417	relates to	PIG-4949
+PIG-4411	breaks	PIG-4869
+PIG-4411	requires	TEZ-1788
+PIG-4410	is related to	PIG-4392
+PIG-4407	relates to	PIG-2672
+PIG-4405	is required by	PIG-4639
+PIG-4405	is required by	PIG-4638
+PIG-4393	blocks	PIG-4310
+PIG-4392	is related to	PIG-2932
+PIG-4392	relates to	PIG-4410
+PIG-4378	relates to	TEZ-1928
+PIG-4377	breaks	PIG-4587
+PIG-4377	breaks	PIG-4541
+PIG-4377	breaks	PIG-4580
+PIG-4373	relates to	PIG-3861
+PIG-4360	is duplicated by	PIG-1832
+PIG-4356	is part of	PIG-3994
+PIG-4356	supercedes	TEZ-1017
+PIG-4348	duplicates	PIG-4844
+PIG-4341	is blocked by	HADOOP-11418
+PIG-4341	relates to	HADOOP-11644
+PIG-4330	relates to	PIG-3584
+PIG-4320	is depended upon by	PIG-4069
+PIG-4316	is related to	PIG-4315
+PIG-4315	relates to	PIG-4316
+PIG-4311	blocks	PIG-4266
+PIG-4310	blocks	PIG-4266
+PIG-4310	is blocked by	PIG-4393
+PIG-4309	blocks	PIG-4266
+PIG-4308	blocks	PIG-4266
+PIG-4307	blocks	PIG-4266
+PIG-4306	blocks	PIG-4266
+PIG-4305	blocks	PIG-4266
+PIG-4304	blocks	PIG-4266
+PIG-4303	blocks	PIG-4266
+PIG-4302	blocks	PIG-4266
+PIG-4301	blocks	PIG-4266
+PIG-4300	blocks	PIG-4266
+PIG-4295	blocks	PIG-4266
+PIG-4294	blocks	PIG-4266
+PIG-4293	blocks	PIG-4266
+PIG-4292	blocks	PIG-4266
+PIG-4291	blocks	PIG-4266
+PIG-4290	blocks	PIG-4266
+PIG-4289	blocks	PIG-4266
+PIG-4287	blocks	PIG-4266
+PIG-4286	blocks	PIG-4266
+PIG-4285	blocks	PIG-4266
+PIG-4284	blocks	PIG-4266
+PIG-4283	blocks	PIG-4266
+PIG-4282	blocks	PIG-4266
+PIG-4281	blocks	PIG-4266
+PIG-4280	blocks	PIG-4266
+PIG-4279	blocks	PIG-4266
+PIG-4278	blocks	PIG-4266
+PIG-4278	duplicates	PIG-4190
+PIG-4277	blocks	PIG-4266
+PIG-4277	relates to	PIG-4276
+PIG-4276	is related to	PIG-4277
+PIG-4266	is blocked by	PIG-4278
+PIG-4266	is blocked by	PIG-4279
+PIG-4266	is blocked by	PIG-4306
+PIG-4266	is blocked by	PIG-4311
+PIG-4266	is blocked by	PIG-4243
+PIG-4266	is blocked by	PIG-4277
+PIG-4266	is blocked by	PIG-4280
+PIG-4266	is blocked by	PIG-4281
+PIG-4266	is blocked by	PIG-4282
+PIG-4266	is blocked by	PIG-4283
+PIG-4266	is blocked by	PIG-4284
+PIG-4266	is blocked by	PIG-4285
+PIG-4266	is blocked by	PIG-4286
+PIG-4266	is blocked by	PIG-4287
+PIG-4266	is blocked by	PIG-4289
+PIG-4266	is blocked by	PIG-4290
+PIG-4266	is blocked by	PIG-4291
+PIG-4266	is blocked by	PIG-4292
+PIG-4266	is blocked by	PIG-4293
+PIG-4266	is blocked by	PIG-4294
+PIG-4266	is blocked by	PIG-4295
+PIG-4266	is blocked by	PIG-4300
+PIG-4266	is blocked by	PIG-4301
+PIG-4266	is blocked by	PIG-4302
+PIG-4266	is blocked by	PIG-4303
+PIG-4266	is blocked by	PIG-4304
+PIG-4266	is blocked by	PIG-4307
+PIG-4266	is blocked by	PIG-4308
+PIG-4266	is blocked by	PIG-4309
+PIG-4266	is blocked by	PIG-4310
+PIG-4266	is blocked by	PIG-4776
+PIG-4266	is blocked by	PIG-4777
+PIG-4266	is blocked by	PIG-4778
+PIG-4266	is blocked by	PIG-4305
+PIG-4266	relates to	PIG-4059
+PIG-4263	is related to	PIG-4453
+PIG-4259	relates to	PIG-4162
+PIG-4253	relates to	PIG-3257
+PIG-4247	breaks	PIG-4556
+PIG-4243	blocks	PIG-4168
+PIG-4243	blocks	PIG-4266
+PIG-4243	is blocked by	PIG-4239
+PIG-4243	is blocked by	SPARK-7953
+PIG-4243	is related to	PIG-4239
+PIG-4239	blocks	PIG-4243
+PIG-4239	relates to	PIG-4243
+PIG-4238	is required by	HIVE-8484
+PIG-4237	blocks	PIG-4234
+PIG-4236	is related to	PIG-4667
+PIG-4234	is blocked by	PIG-4237
+PIG-4232	blocks	PIG-4207
+PIG-4232	is related to	PIG-4228
+PIG-4232	relates to	PIG-4207
+PIG-4232	relates to	PIG-4209
+PIG-4228	relates to	PIG-4232
+PIG-4225	duplicates	PIG-4124
+PIG-4224	is related to	TEZ-1119
+PIG-4219	blocks	PARQUET-110
+PIG-4209	is related to	PIG-4232
+PIG-4207	is blocked by	PIG-4232
+PIG-4207	is related to	PIG-4232
+PIG-4206	is related to	PIG-4174
+PIG-4206	relates to	PIG-4174
+PIG-4200	duplicates	PIG-4422
+PIG-4190	is duplicated by	PIG-4278
+PIG-4189	is blocked by	PIG-4549
+PIG-4189	is blocked by	PIG-4552
+PIG-4184	relates to	PIG-4774
+PIG-4174	is related to	PIG-4206
+PIG-4174	relates to	PIG-4206
+PIG-4169	relates to	PIG-4128
+PIG-4168	is blocked by	PIG-4243
+PIG-4162	is related to	PIG-4259
+PIG-4138	is superceded by	PIG-4544
+PIG-4135	is related to	PIG-3642
+PIG-4132	is broken by	TEZ-1246
+PIG-4132	is broken by	TEZ-1390
+PIG-4130	is related to	PIG-3350
+PIG-4128	is related to	PIG-4169
+PIG-4125	is broken by	TEZ-1347
+PIG-4124	is duplicated by	PIG-4225
+PIG-4117	is duplicated by	PIG-3834
+PIG-4113	is broken by	TEZ-1386
+PIG-4110	is broken by	TEZ-1382
+PIG-4107	relates to	CALCITE-785
+PIG-4106	is broken by	PIG-3204
+PIG-4102	relates to	PIG-4091
+PIG-4098	is related to	TEZ-1041
+PIG-4096	depends upon	PIG-4093
+PIG-4094	is related to	HIVE-7214
+PIG-4094	relates to	PIG-4091
+PIG-4093	is depended upon by	PIG-4096
+PIG-4093	relates to	PIG-4091
+PIG-4092	is superceded by	PARQUET-397
+PIG-4091	is related to	PIG-4093
+PIG-4091	is related to	PIG-4094
+PIG-4091	is related to	PIG-4102
+PIG-4090	duplicates	PIG-4088
+PIG-4089	is broken by	PIG-4079
+PIG-4088	is broken by	TEZ-1346
+PIG-4088	is duplicated by	PIG-4090
+PIG-4086	depends upon	TEZ-1351
+PIG-4085	is broken by	TEZ-1303
+PIG-4084	is part of	PIG-3977
+PIG-4083	relates to	ACCUMULO-3036
+PIG-4082	is broken by	TEZ-1278
+PIG-4079	breaks	PIG-4089
+PIG-4072	relates to	PIG-4064
+PIG-4069	depends upon	PIG-4320
+PIG-4069	requires	TEZ-1590
+PIG-4066	is related to	IMPALA-7204
+PIG-4066	relates to	PIG-4566
+PIG-4064	is related to	PIG-4072
+PIG-4059	is related to	PIG-3446
+PIG-4059	is related to	PIG-4266
+PIG-4059	supercedes	PIG-1734
+PIG-4054	contains	PIG-4011
+PIG-4054	is related to	PIG-4047
+PIG-4050	is related to	PIG-4043
+PIG-4049	requires	TEZ-1264
+PIG-4049	requires	TEZ-1265
+PIG-4048	is broken by	TEZ-692
+PIG-4047	relates to	PIG-2599
+PIG-4047	relates to	PIG-4054
+PIG-4043	relates to	PIG-4050
+PIG-4035	relates to	PIG-3834
+PIG-4021	is broken by	PIG-3463
+PIG-4019	is broken by	TEZ-1169
+PIG-4017	is related to	PIG-4016
+PIG-4016	relates to	PIG-4017
+PIG-4015	depends upon	PIG-3846
+PIG-4012	is part of	PIG-4564
+PIG-4011	Is contained by	PIG-4054
+PIG-4008	relates to	TEZ-684
+PIG-3994	incorporates	PIG-4356
+PIG-3991	is broken by	PIG-3967
+PIG-3990	is broken by	PIG-3800
+PIG-3985	is duplicated by	PIG-3773
+PIG-3981	is blocked by	TEZ-1173
+PIG-3979	breaks	PIG-4564
+PIG-3977	incorporates	PIG-4084
+PIG-3973	is part of	PIG-3935
+PIG-3972	depends upon	PIG-2315
+PIG-3967	breaks	PIG-3991
+PIG-3958	is broken by	PIG-3913
+PIG-3957	relates to	PIG-4692
+PIG-3938	is related to	PIG-4974
+PIG-3937	is blocked by	TEZ-1128
+PIG-3935	depends upon	TEZ-1257
+PIG-3935	incorporates	PIG-3973
+PIG-3935	is broken by	TEZ-1261
+PIG-3933	is broken by	PIG-3914
+PIG-3932	is related to	PIG-3926
+PIG-3926	relates to	PIG-3932
+PIG-3916	is broken by	PIG-2066
+PIG-3914	breaks	PIG-3933
+PIG-3913	breaks	PIG-3958
+PIG-3913	is related to	PIG-3853
+PIG-3913	is related to	PIG-3825
+PIG-3913	is related to	MAPREDUCE-1214
+PIG-3911	is related to	PIG-2361
+PIG-3910	depends upon	PIG-2597
+PIG-3906	breaks	BIGTOP-1303
+PIG-3906	is related to	PIG-4526
+PIG-3905	blocks	BIGTOP-1278
+PIG-3895	is broken by	PIG-3673
+PIG-3891	is related to	PIG-2924
+PIG-3890	is related to	PIG-3446
+PIG-3887	is broken by	PIG-3884
+PIG-3884	breaks	PIG-3887
+PIG-3876	duplicates	PIG-4495
+PIG-3876	requires	TEZ-1190
+PIG-3874	is duplicated by	PIG-2554
+PIG-3865	breaks	PIG-4617
+PIG-3865	incorporates	PIG-3373
+PIG-3861	is related to	PIG-4373
+PIG-3861	requires	PIG-3798
+PIG-3860	is related to	PIG-3829
+PIG-3860	relates to	PIG-3858
+PIG-3858	is related to	PIG-3860
+PIG-3856	requires	TEZ-391
+PIG-3856	requires	TEZ-1153
+PIG-3855	depends upon	TEZ-1003
+PIG-3855	is related to	PIG-3835
+PIG-3853	relates to	PIG-3913
+PIG-3852	requires	TEZ-996
+PIG-3852	requires	TEZ-983
+PIG-3852	requires	TEZ-990
+PIG-3851	relates to	YARN-3338
+PIG-3846	is blocked by	TEZ-800
+PIG-3846	is blocked by	TEZ-1143
+PIG-3846	is blocked by	TEZ-1145
+PIG-3846	is blocked by	TEZ-1151
+PIG-3846	is blocked by	TEZ-1164
+PIG-3846	is blocked by	TEZ-1171
+PIG-3846	is depended upon by	PIG-4015
+PIG-3846	relates to	TEZ-1170
+PIG-3845	requires	TEZ-391
+PIG-3841	requires	TEZ-1012
+PIG-3840	is related to	PIG-3446
+PIG-3839	is related to	PIG-3446
+PIG-3835	is related to	PIG-3743
+PIG-3835	relates to	PIG-3855
+PIG-3835	requires	TEZ-1003
+PIG-3834	duplicates	PIG-4117
+PIG-3834	is related to	PIG-4035
+PIG-3829	relates to	PIG-3860
+PIG-3828	is related to	PIG-3100
+PIG-3825	relates to	PIG-3913
+PIG-3819	is broken by	PIG-3069
+PIG-3815	relates to	PIG-5290
+PIG-3802	breaks	PIG-3765
+PIG-3800	breaks	PIG-3990
+PIG-3798	is required by	PIG-3861
+PIG-3796	is part of	PIG-3672
+PIG-3781	is broken by	PIG-3759
+PIG-3776	is broken by	PIG-3573
+PIG-3775	requires	TEZ-661
+PIG-3773	duplicates	PIG-3985
+PIG-3772	depends upon	PIG-2597
+PIG-3770	relates to	PIG-3597
+PIG-3770	relates to	PIG-1891
+PIG-3769	is broken by	PIG-3629
+PIG-3765	is broken by	PIG-3802
+PIG-3760	relates to	HIVE-7214
+PIG-3759	breaks	PIG-3781
+PIG-3754	breaks	PIG-4679
+PIG-3745	is related to	PIG-3463
+PIG-3745	is related to	PIG-3731
+PIG-3743	relates to	PIG-3835
+PIG-3742	is related to	TEZ-793
+PIG-3742	is related to	PIG-3659
+PIG-3740	is related to	PIG-3642
+PIG-3739	is broken by	PIG-3679
+PIG-3739	is broken by	PIG-2207
+PIG-3731	relates to	PIG-3745
+PIG-3730	relates to	PIG-3456
+PIG-3725	duplicates	PIG-3677
+PIG-3722	is duplicated by	PIG-2819
+PIG-3717	is part of	PIG-3661
+PIG-3679	breaks	PIG-3739
+PIG-3679	is broken by	PIG-3568
+PIG-3677	is duplicated by	PIG-3725
+PIG-3677	is related to	HADOOP-9725
+PIG-3675	depends upon	PIG-3573
+PIG-3673	breaks	PIG-3895
+PIG-3672	incorporates	PIG-3796
+PIG-3669	is related to	PIG-2629
+PIG-3661	incorporates	PIG-3717
+PIG-3659	relates to	PIG-3742
+PIG-3659	requires	TEZ-719
+PIG-3658	requires	TEZ-711
+PIG-3655	breaks	PIG-5373
+PIG-3655	is related to	PIG-5277
+PIG-3643	is broken by	PIG-3581
+PIG-3642	is related to	PIG-2864
+PIG-3642	relates to	PIG-4135
+PIG-3642	relates to	PIG-3740
+PIG-3640	is related to	PIG-3117
+PIG-3634	depends upon	TEZ-683
+PIG-3629	breaks	PIG-3769
+PIG-3621	is duplicated by	AVRO-1412
+PIG-3621	is related to	AVRO-1412
+PIG-3621	relates to	AVRO-1412
+PIG-3600	is blocked by	LOGGING-160
+PIG-3600	is required by	PIG-3591
+PIG-3597	is related to	PIG-3770
+PIG-3595	is related to	PIG-3591
+PIG-3594	duplicates	PIG-3461
+PIG-3591	breaks	PIG-5083
+PIG-3591	is required by	PIG-3446
+PIG-3591	relates to	PIG-3595
+PIG-3591	relates to	PIG-4683
+PIG-3591	requires	PIG-3600
+PIG-3584	is related to	PIG-4330
+PIG-3581	breaks	PIG-3643
+PIG-3573	breaks	PIG-3776
+PIG-3573	is depended upon by	PIG-3675
+PIG-3570	is broken by	PIG-3060
+PIG-3568	breaks	PIG-3679
+PIG-3565	incorporates	PIG-3564
+PIG-3564	is blocked by	TEZ-606
+PIG-3564	is part of	PIG-3565
+PIG-3559	is broken by	PIG-3522
+PIG-3558	relates to	HIVE-7423
+PIG-3558	relates to	HIVE-5728
+PIG-3554	is related to	DATAFU-6
+PIG-3553	is related to	PIG-2894
+PIG-3547	is depended upon by	HIVE-5547
+PIG-3547	is duplicated by	PIG-3543
+PIG-3547	relates to	HIVE-4114
+PIG-3545	blocks	PIG-3508
+PIG-3545	incorporates	PIG-3508
+PIG-3543	duplicates	PIG-3547
+PIG-3543	is depended upon by	HIVE-5547
+PIG-3537	is blocked by	PIG-3529
+PIG-3530	is broken by	PIG-3480
+PIG-3529	blocks	PIG-3537
+PIG-3529	is related to	HBASE-9820
+PIG-3528	is related to	PIG-3117
+PIG-3525	is required by	PIG-3446
+PIG-3524	breaks	PIG-4921
+PIG-3522	breaks	PIG-3559
+PIG-3520	is required by	PIG-3446
+PIG-3516	is related to	HIVE-6191
+PIG-3511	is related to	YARN-1575
+PIG-3510	is broken by	PIG-3461
+PIG-3508	is blocked by	PIG-3545
+PIG-3508	is part of	PIG-3545
+PIG-3508	is required by	PIG-3446
+PIG-3502	requires	PIG-3500
+PIG-3502	requires	PIG-3501
+PIG-3501	is required by	PIG-3502
+PIG-3501	requires	PIG-3500
+PIG-3500	is required by	PIG-3501
+PIG-3500	is required by	PIG-3502
+PIG-3496	is broken by	PIG-3390
+PIG-3492	is related to	PIG-3020
+PIG-3492	is related to	PIG-3144
+PIG-3485	is related to	PIG-1876
+PIG-3483	relates to	PIG-3367
+PIG-3480	breaks	PIG-3530
+PIG-3471	is required by	PIG-3448
+PIG-3468	duplicates	PIG-3428
+PIG-3467	duplicates	OOZIE-1544
+PIG-3466	is related to	PIG-3212
+PIG-3465	is related to	PIG-2316
+PIG-3464	is related to	PIG-3419
+PIG-3463	breaks	PIG-4021
+PIG-3463	relates to	PIG-3745
+PIG-3461	breaks	PIG-3510
+PIG-3461	is duplicated by	PIG-3594
+PIG-3461	relates to	PIG-3300
+PIG-3457	is broken by	PIG-3419
+PIG-3457	is related to	OOZIE-1544
+PIG-3456	is related to	PIG-3730
+PIG-3455	is broken by	PIG-2587
+PIG-3454	is duplicated by	PIG-2594
+PIG-3454	is duplicated by	PIG-3403
+PIG-3453	is related to	PIG-3419
+PIG-3448	requires	PIG-3471
+PIG-3446	is related to	TEZ-388
+PIG-3446	is related to	TEZ-4370
+PIG-3446	relates to	PIG-3890
+PIG-3446	relates to	PIG-3839
+PIG-3446	relates to	PIG-4059
+PIG-3446	relates to	PIG-3840
+PIG-3446	requires	PIG-3520
+PIG-3446	requires	PIG-3525
+PIG-3446	requires	PIG-3591
+PIG-3446	requires	PIG-3508
+PIG-3446	requires	PIG-3419
+PIG-3446	requires	TEZ-591
+PIG-3446	supercedes	PIG-1734
+PIG-3444	relates to	PIG-1577
+PIG-3444	supercedes	PIG-1420
+PIG-3442	duplicates	PIG-3341
+PIG-3428	is duplicated by	PIG-3468
+PIG-3419	breaks	PIG-3457
+PIG-3419	is required by	PIG-3446
+PIG-3419	relates to	PIG-3464
+PIG-3419	relates to	PIG-3453
+PIG-3418	duplicates	PIG-2507
+PIG-3417	is duplicated by	PIG-5069
+PIG-3404	duplicates	PIG-3059
+PIG-3403	duplicates	PIG-3454
+PIG-3397	relates to	PIG-1654
+PIG-3395	is related to	PIG-3173
+PIG-3394	is broken by	PIG-2247
+PIG-3393	is broken by	PIG-2879
+PIG-3392	duplicates	PIG-3324
+PIG-3392	is broken by	PIG-2879
+PIG-3392	is broken by	PIG-3163
+PIG-3390	breaks	PIG-3496
+PIG-3390	is related to	SQOOP-1172
+PIG-3373	is part of	PIG-3865
+PIG-3368	is related to	PIG-5201
+PIG-3367	is related to	PIG-3483
+PIG-3362	is related to	PIG-2591
+PIG-3359	breaks	PIG-4897
+PIG-3359	breaks	PIG-4896
+PIG-3359	relates to	PIG-4880
+PIG-3357	relates to	PIG-2596
+PIG-3352	is related to	PIG-3251
+PIG-3350	relates to	PIG-4130
+PIG-3343	relates to	PIG-2828
+PIG-3342	is related to	PIG-3268
+PIG-3342	is related to	PIG-3280
+PIG-3341	is duplicated by	PIG-3442
+PIG-3336	is related to	PIG-3269
+PIG-3336	is related to	PIG-3280
+PIG-3332	blocks	PIG-3297
+PIG-3324	is duplicated by	PIG-3392
+PIG-3322	duplicates	PIG-2330
+PIG-3314	relates to	PIG-2248
+PIG-3300	is related to	PIG-3461
+PIG-3300	relates to	PIG-3173
+PIG-3299	is related to	MAPREDUCE-5839
+PIG-3298	is related to	PIG-2927
+PIG-3297	is blocked by	PIG-3332
+PIG-3295	is duplicated by	PIG-3293
+PIG-3294	is related to	PARQUET-334
+PIG-3294	is related to	HIVE-9766
+PIG-3294	relates to	HIVE-9767
+PIG-3293	duplicates	PIG-3295
+PIG-3290	is broken by	PIG-2767
+PIG-3289	requires	AVRO-1372
+PIG-3289	requires	MAPREDUCE-5025
+PIG-3289	requires	HADOOP-9331
+PIG-3289	requires	HADOOP-9996
+PIG-3289	requires	HADOOP-9997
+PIG-3286	is broken by	PIG-3198
+PIG-3285	is related to	HBASE-8386
+PIG-3285	is related to	PIG-2786
+PIG-3283	is related to	PIG-2407
+PIG-3280	relates to	PIG-3122
+PIG-3280	relates to	PIG-3268
+PIG-3280	relates to	PIG-3269
+PIG-3280	relates to	PIG-3342
+PIG-3280	relates to	PIG-3336
+PIG-3278	is related to	PIG-3193
+PIG-3269	is related to	PIG-3280
+PIG-3269	relates to	PIG-4931
+PIG-3269	relates to	PIG-3336
+PIG-3268	is related to	PIG-3280
+PIG-3268	relates to	PIG-3342
+PIG-3267	is depended upon by	PIG-3222
+PIG-3266	duplicates	PIG-2769
+PIG-3265	is related to	PIG-2404
+PIG-3262	relates to	BIGTOP-894
+PIG-3257	is related to	PIG-4253
+PIG-3255	is required by	PIG-2417
+PIG-3251	is duplicated by	PIG-4591
+PIG-3251	is related to	MAPREDUCE-5656
+PIG-3251	is related to	PIG-4533
+PIG-3251	relates to	PIG-3352
+PIG-3225	is related to	PIG-3221
+PIG-3225	is related to	PIG-3224
+PIG-3225	is related to	PIG-1713
+PIG-3224	is related to	PIG-1713
+PIG-3224	relates to	PIG-3221
+PIG-3224	relates to	PIG-3225
+PIG-3222	depends upon	PIG-3267
+PIG-3221	is related to	PIG-3224
+PIG-3221	is related to	PIG-1713
+PIG-3221	relates to	PIG-3225
+PIG-3213	relates to	PIG-997
+PIG-3213	relates to	PIG-1077
+PIG-3212	relates to	PIG-3466
+PIG-3204	breaks	PIG-4106
+PIG-3204	is related to	PIG-4670
+PIG-3198	breaks	PIG-3286
+PIG-3198	incorporates	PIG-2643
+PIG-3193	relates to	PIG-3278
+PIG-3173	is related to	PIG-3300
+PIG-3173	relates to	PIG-3395
+PIG-3171	is broken by	PIG-2994
+PIG-3168	is broken by	PIG-2994
+PIG-3163	breaks	PIG-3392
+PIG-3156	is broken by	PIG-2764
+PIG-3155	is broken by	PIG-2764
+PIG-3154	is broken by	PIG-2764
+PIG-3153	is broken by	PIG-3082
+PIG-3153	is related to	PIG-3150
+PIG-3150	is broken by	PIG-3082
+PIG-3150	relates to	PIG-3153
+PIG-3144	relates to	PIG-3492
+PIG-3143	duplicates	DATAFU-14
+PIG-3141	incorporates	PIG-2470
+PIG-3140	blocks	PIG-2756
+PIG-3139	blocks	PIG-2756
+PIG-3137	is part of	PIG-2591
+PIG-3134	duplicates	PIG-3055
+PIG-3132	relates to	HCATALOG-163
+PIG-3131	depends upon	PIG-3078
+PIG-3129	depends upon	PIG-3090
+PIG-3128	depends upon	PIG-2764
+PIG-3127	depends upon	PIG-2764
+PIG-3123	breaks	PIG-4851
+PIG-3122	is related to	PIG-3280
+PIG-3120	contains	PIG-2689
+PIG-3117	relates to	PIG-3640
+PIG-3117	relates to	PIG-3528
+PIG-3116	duplicates	PIG-2782
+PIG-3116	duplicates	PIG-3045
+PIG-3114	is duplicated by	PIG-2279
+PIG-3113	duplicates	PIG-5226
+PIG-3111	is related to	PIG-3015
+PIG-3111	relates to	PIG-3015
+PIG-3102	relates to	PIG-3100
+PIG-3100	is duplicated by	PIG-3056
+PIG-3100	is related to	PIG-3102
+PIG-3100	relates to	PIG-3828
+PIG-3093	relates to	PIG-3020
+PIG-3090	is depended upon by	PIG-3129
+PIG-3088	depends upon	PIG-3010
+PIG-3082	breaks	PIG-3150
+PIG-3082	breaks	PIG-3153
+PIG-3082	is duplicated by	PIG-3074
+PIG-3078	is depended upon by	PIG-3131
+PIG-3077	is part of	PIG-2591
+PIG-3074	duplicates	PIG-3082
+PIG-3069	breaks	PIG-3819
+PIG-3067	relates to	PIG-2921
+PIG-3066	is broken by	PIG-2924
+PIG-3060	breaks	PIG-3570
+PIG-3059	is duplicated by	PIG-3404
+PIG-3059	is related to	AVRO-806
+PIG-3059	is related to	PIG-3015
+PIG-3059	supercedes	PIG-2614
+PIG-3056	duplicates	PIG-3100
+PIG-3056	is a clone of	PIG-2127
+PIG-3055	is duplicated by	PIG-3134
+PIG-3049	relates to	PIG-2265
+PIG-3045	is a clone of	PIG-2782
+PIG-3045	is duplicated by	PIG-2498
+PIG-3045	is duplicated by	PIG-3116
+PIG-3043	relates to	MAPREDUCE-1700
+PIG-3043	relates to	PIG-3039
+PIG-3039	is related to	PIG-3043
+PIG-3038	is related to	PIG-5361
+PIG-3038	is related to	PIG-3030
+PIG-3030	relates to	PIG-3038
+PIG-3023	duplicates	PIG-3022
+PIG-3022	is duplicated by	PIG-3023
+PIG-3020	is broken by	PIG-2176
+PIG-3020	is related to	PIG-3093
+PIG-3020	relates to	PIG-3492
+PIG-3016	incorporates	PIG-3006
+PIG-3015	is blocked by	PIG-2266
+PIG-3015	is related to	PIG-3111
+PIG-3015	is related to	AVRO-806
+PIG-3015	is related to	AVRO-1241
+PIG-3015	is related to	HIVE-3585
+PIG-3015	relates to	AVRO-1235
+PIG-3015	relates to	PIG-3059
+PIG-3015	relates to	PIG-3111
+PIG-3015	relates to	AVRO-1241
+PIG-3014	supercedes	PIG-1431
+PIG-3010	is depended upon by	PIG-3088
+PIG-3006	is part of	PIG-3016
+PIG-3003	is broken by	PIG-2975
+PIG-3003	relates to	PIG-2998
+PIG-3003	relates to	PIG-2999
+PIG-3001	is related to	PIG-2971
+PIG-3001	is related to	PIG-2900
+PIG-3000	is part of	PIG-5256
+PIG-3000	relates to	PIG-1633
+PIG-2999	is duplicated by	PIG-2984
+PIG-2999	is related to	PIG-3003
+PIG-2998	is related to	PIG-3003
+PIG-2996	relates to	PIG-1314
+PIG-2996	relates to	PIG-2982
+PIG-2995	is related to	PIG-2591
+PIG-2994	breaks	PIG-3171
+PIG-2994	breaks	PIG-3168
+PIG-2993	duplicates	PIG-2979
+PIG-2989	is blocked by	PIG-2963
+PIG-2989	is part of	PIG-2353
+PIG-2987	duplicates	PIG-2975
+PIG-2984	duplicates	PIG-2975
+PIG-2984	duplicates	PIG-2999
+PIG-2982	is related to	PIG-1314
+PIG-2982	is related to	PIG-2996
+PIG-2981	is related to	PIG-1314
+PIG-2980	blocks	PIG-2756
+PIG-2980	is related to	PIG-1314
+PIG-2979	is duplicated by	PIG-2993
+PIG-2977	is depended upon by	PIG-2885
+PIG-2975	breaks	PIG-3003
+PIG-2975	is duplicated by	PIG-2984
+PIG-2975	is duplicated by	PIG-2987
+PIG-2974	duplicates	PIG-2973
+PIG-2973	is duplicated by	PIG-2974
+PIG-2971	relates to	PIG-3001
+PIG-2971	supercedes	PIG-2925
+PIG-2970	is duplicated by	PIG-2802
+PIG-2963	blocks	PIG-2989
+PIG-2963	is broken by	PIG-2923
+PIG-2947	blocks	PIG-2756
+PIG-2947	is duplicated by	PIG-2922
+PIG-2946	blocks	PIG-2756
+PIG-2940	relates to	PIG-2821
+PIG-2938	is broken by	PIG-2844
+PIG-2935	relates to	PIG-1891
+PIG-2932	relates to	PIG-4392
+PIG-2931	is duplicated by	PIG-2074
+PIG-2930	is broken by	PIG-2791
+PIG-2927	relates to	PIG-3298
+PIG-2925	is superceded by	PIG-2971
+PIG-2924	breaks	PIG-3066
+PIG-2924	relates to	PIG-3891
+PIG-2923	breaks	PIG-2963
+PIG-2922	duplicates	PIG-2947
+PIG-2922	is related to	PIG-2353
+PIG-2921	is related to	PIG-3067
+PIG-2909	is related to	PIG-2614
+PIG-2908	is related to	PIG-2405
+PIG-2907	is duplicated by	PIG-2546
+PIG-2902	is related to	PIG-2835
+PIG-2901	blocks	PIG-2756
+PIG-2900	relates to	PIG-3001
+PIG-2896	is broken by	PIG-2850
+PIG-2896	relates to	PIG-2279
+PIG-2894	relates to	PIG-3553
+PIG-2891	relates to	PIG-2885
+PIG-2890	relates to	PIG-2872
+PIG-2890	relates to	PIG-2870
+PIG-2886	duplicates	PIG-1832
+PIG-2886	relates to	PIG-2114
+PIG-2885	depends upon	PIG-2977
+PIG-2885	is related to	PIG-2891
+PIG-2879	breaks	PIG-3393
+PIG-2879	breaks	PIG-3392
+PIG-2872	is related to	PIG-2890
+PIG-2872	relates to	PIG-2870
+PIG-2871	relates to	PIG-2574
+PIG-2870	is related to	PIG-2872
+PIG-2870	is related to	PIG-2890
+PIG-2870	relates to	PIG-2578
+PIG-2864	relates to	PIG-3642
+PIG-2850	breaks	PIG-2896
+PIG-2844	breaks	PIG-2938
+PIG-2835	relates to	PIG-2902
+PIG-2829	is related to	PIG-2228
+PIG-2828	is related to	PIG-3343
+PIG-2824	is related to	PIG-2661
+PIG-2822	is part of	PIG-2821
+PIG-2821	incorporates	PIG-2822
+PIG-2821	is related to	PIG-2940
+PIG-2820	is broken by	PIG-2699
+PIG-2819	duplicates	PIG-3722
+PIG-2817	blocks	PIG-2756
+PIG-2817	relates to	PIG-2763
+PIG-2811	relates to	PIG-2665
+PIG-2809	is broken by	PIG-2699
+PIG-2807	is broken by	PIG-2699
+PIG-2802	duplicates	PIG-2970
+PIG-2801	is related to	PIG-2799
+PIG-2799	relates to	PIG-2801
+PIG-2793	relates to	PIG-243
+PIG-2791	breaks	PIG-2930
+PIG-2791	depends upon	HADOOP-8430
+PIG-2791	is related to	HIVE-3645
+PIG-2790	is broken by	PIG-2699
+PIG-2786	relates to	PIG-3285
+PIG-2784	is related to	PIG-2772
+PIG-2784	is related to	PIG-483
+PIG-2784	is related to	PIG-2675
+PIG-2784	relates to	PIG-2779
+PIG-2782	is cloned by	PIG-3045
+PIG-2782	is duplicated by	PIG-2498
+PIG-2782	is duplicated by	PIG-3116
+PIG-2779	blocks	PIG-2772
+PIG-2779	blocks	PIG-483
+PIG-2779	is related to	PIG-2652
+PIG-2779	is related to	PIG-2784
+PIG-2778	breaks	PIG-4482
+PIG-2772	is blocked by	PIG-2779
+PIG-2772	is related to	PIG-483
+PIG-2772	relates to	PIG-2784
+PIG-2769	is duplicated by	PIG-2752
+PIG-2769	is duplicated by	PIG-3266
+PIG-2767	breaks	PIG-3290
+PIG-2766	is related to	HCATALOG-442
+PIG-2764	breaks	PIG-3154
+PIG-2764	breaks	PIG-3155
+PIG-2764	breaks	PIG-3156
+PIG-2764	is depended upon by	PIG-3127
+PIG-2764	is depended upon by	PIG-3128
+PIG-2763	is related to	PIG-2817
+PIG-2762	relates to	PIG-2165
+PIG-2762	relates to	PIG-2548
+PIG-2761	incorporates	PIG-2760
+PIG-2761	is related to	PIG-2745
+PIG-2761	is related to	PIG-2760
+PIG-2760	is part of	PIG-2761
+PIG-2760	is related to	PIG-2745
+PIG-2760	relates to	PIG-2761
+PIG-2756	is blocked by	PIG-2901
+PIG-2756	is blocked by	PIG-2980
+PIG-2756	is blocked by	PIG-3139
+PIG-2756	is blocked by	PIG-3140
+PIG-2756	is blocked by	PIG-2946
+PIG-2756	is blocked by	PIG-2947
+PIG-2756	is blocked by	PIG-2817
+PIG-2752	duplicates	PIG-2769
+PIG-2750	relates to	PIG-2748
+PIG-2748	is related to	PIG-2750
+PIG-2746	depends upon	HADOOP-8570
+PIG-2745	relates to	PIG-2760
+PIG-2745	relates to	PIG-2761
+PIG-2745	relates to	PIG-2623
+PIG-2740	relates to	HADOOP-7489
+PIG-2738	is a clone of	PIG-2669
+PIG-2732	is duplicated by	PIG-2731
+PIG-2731	duplicates	PIG-2732
+PIG-2712	is related to	HCATALOG-413
+PIG-2712	relates to	HCATALOG-451
+PIG-2699	breaks	PIG-2790
+PIG-2699	breaks	PIG-2807
+PIG-2699	breaks	PIG-2809
+PIG-2699	breaks	PIG-2820
+PIG-2699	incorporates	PIG-2648
+PIG-2699	is duplicated by	PIG-2654
+PIG-2699	is related to	PIG-2421
+PIG-2699	is related to	PIG-2344
+PIG-2689	Is contained by	PIG-3120
+PIG-2686	is depended upon by	PIG-2599
+PIG-2675	relates to	PIG-2784
+PIG-2675	relates to	PIG-483
+PIG-2674	relates to	PIG-2458
+PIG-2673	is part of	PIG-2632
+PIG-2673	is related to	PIG-959
+PIG-2672	is related to	PIG-4407
+PIG-2672	is related to	HIVE-860
+PIG-2672	relates to	PIG-5290
+PIG-2672	relates to	YARN-1492
+PIG-2669	is cloned by	PIG-2738
+PIG-2667	blocks	HCATALOG-391
+PIG-2666	relates to	HCATALOG-380
+PIG-2665	is related to	PIG-2811
+PIG-2665	is related to	PIG-1824
+PIG-2661	is related to	PIG-1188
+PIG-2661	is related to	PIG-200
+PIG-2661	relates to	PIG-2824
+PIG-2654	duplicates	PIG-2699
+PIG-2654	is related to	PIG-2344
+PIG-2652	relates to	PIG-2779
+PIG-2651	incorporates	PIG-2066
+PIG-2648	is part of	PIG-2699
+PIG-2643	is part of	PIG-3198
+PIG-2641	is related to	PIG-1914
+PIG-2641	relates to	PIG-1914
+PIG-2633	relates to	PIG-2632
+PIG-2632	incorporates	PIG-2673
+PIG-2632	is related to	PIG-2633
+PIG-2629	relates to	PIG-3669
+PIG-2626	is superceded by	PIG-2601
+PIG-2623	is related to	PIG-2745
+PIG-2614	is superceded by	PIG-3059
+PIG-2614	relates to	PIG-2909
+PIG-2601	supercedes	PIG-2626
+PIG-2599	depends upon	PIG-2686
+PIG-2599	is related to	PIG-4047
+PIG-2599	supercedes	PIG-2362
+PIG-2598	blocks	PIG-2317
+PIG-2597	blocks	PIG-5028
+PIG-2597	is depended upon by	PIG-3910
+PIG-2597	is depended upon by	PIG-19
+PIG-2597	is depended upon by	PIG-3772
+PIG-2597	is duplicated by	PIG-2439
+PIG-2597	is duplicated by	PIG-2079
+PIG-2597	is required by	PIG-4424
+PIG-2596	is related to	PIG-3357
+PIG-2594	duplicates	PIG-3454
+PIG-2591	incorporates	PIG-3137
+PIG-2591	incorporates	PIG-3077
+PIG-2591	is related to	PIG-2565
+PIG-2591	relates to	PIG-2995
+PIG-2591	relates to	PIG-3362
+PIG-2587	breaks	PIG-3455
+PIG-2578	blocks	HCATALOG-276
+PIG-2578	is related to	PIG-2870
+PIG-2576	is related to	PIG-2532
+PIG-2576	is related to	PIG-2344
+PIG-2574	is related to	PIG-2871
+PIG-2566	is related to	PIG-2534
+PIG-2565	relates to	PIG-2591
+PIG-2559	is related to	PIG-2558
+PIG-2558	relates to	PIG-2559
+PIG-2557	duplicates	PIG-5045
+PIG-2554	duplicates	PIG-3874
+PIG-2552	is related to	PIG-2508
+PIG-2551	is part of	PIG-2317
+PIG-2550	is related to	PIG-2359
+PIG-2548	is related to	PIG-2762
+PIG-2546	duplicates	PIG-2907
+PIG-2542	duplicates	PIG-2101
+PIG-2537	relates to	PIG-5201
+PIG-2534	relates to	PIG-2566
+PIG-2532	relates to	PIG-2576
+PIG-2511	is related to	PIG-1693
+PIG-2508	duplicates	HADOOP-8021
+PIG-2508	relates to	PIG-2552
+PIG-2507	is duplicated by	PIG-3418
+PIG-2507	is duplicated by	PIG-731
+PIG-2507	relates to	PIG-4818
+PIG-2507	relates to	PIG-4889
+PIG-2498	duplicates	PIG-2782
+PIG-2498	duplicates	PIG-3045
+PIG-2489	relates to	PIG-2209
+PIG-2489	relates to	PIG-2453
+PIG-2485	blocks	CASSANDRA-3371
+PIG-2484	is blocked by	MAPREDUCE-3700
+PIG-2484	is blocked by	MAPREDUCE-1938
+PIG-2470	is part of	PIG-3141
+PIG-2463	depends upon	AVRO-993
+PIG-2463	is related to	AVRO-839
+PIG-2462	is related to	PIG-1518
+PIG-2458	is related to	PIG-2674
+PIG-2458	relates to	PIG-2162
+PIG-2455	duplicates	PIG-2380
+PIG-2454	is blocked by	PIG-2359
+PIG-2453	is related to	PIG-2489
+PIG-2451	relates to	PIG-2326
+PIG-2449	is related to	PIG-2347
+PIG-2446	is related to	PIG-2347
+PIG-2446	is related to	PIG-2408
+PIG-2441	relates to	PIG-535
+PIG-2439	duplicates	PIG-2597
+PIG-2433	is related to	PIG-2347
+PIG-2433	relates to	PIG-1824
+PIG-2431	is broken by	MAPREDUCE-3606
+PIG-2430	relates to	PIG-2421
+PIG-2429	relates to	PIG-1829
+PIG-2423	is related to	PIG-2397
+PIG-2421	is related to	PIG-2430
+PIG-2421	is related to	PIG-2344
+PIG-2421	relates to	PIG-2699
+PIG-2417	requires	PIG-3255
+PIG-2414	is related to	PIG-2086
+PIG-2410	is related to	PIG-2347
+PIG-2408	relates to	PIG-2446
+PIG-2407	relates to	PIG-3283
+PIG-2405	relates to	PIG-2908
+PIG-2404	relates to	PIG-3265
+PIG-2397	is related to	PIG-1324
+PIG-2397	is related to	PIG-410
+PIG-2397	is related to	PIG-2228
+PIG-2397	relates to	PIG-2423
+PIG-2392	is blocked by	MAPREDUCE-3529
+PIG-2388	is related to	PIG-2125
+PIG-2388	relates to	HCATALOG-10
+PIG-2380	is duplicated by	PIG-2455
+PIG-2374	is broken by	HADOOP-6109
+PIG-2362	is superceded by	PIG-2599
+PIG-2361	relates to	PIG-3911
+PIG-2360	is related to	PIG-2138
+PIG-2359	blocks	PIG-2454
+PIG-2359	relates to	PIG-2550
+PIG-2353	incorporates	PIG-2989
+PIG-2353	relates to	PIG-2922
+PIG-2353	supercedes	PIG-821
+PIG-2348	is duplicated by	PIG-4925
+PIG-2348	is related to	PIG-2328
+PIG-2347	depends upon	MAPREDUCE-3389
+PIG-2347	is broken by	MAPREDUCE-3537
+PIG-2347	is broken by	MAPREDUCE-3563
+PIG-2347	is part of	PIG-2125
+PIG-2347	is related to	MAPREDUCE-3542
+PIG-2347	relates to	PIG-2446
+PIG-2347	relates to	PIG-2449
+PIG-2347	relates to	MAPREDUCE-3586
+PIG-2347	relates to	BIGTOP-162
+PIG-2347	relates to	PIG-2410
+PIG-2347	relates to	PIG-2433
+PIG-2344	relates to	PIG-2576
+PIG-2344	relates to	PIG-2699
+PIG-2344	relates to	PIG-2421
+PIG-2344	relates to	PIG-2654
+PIG-2339	is related to	HIVE-2609
+PIG-2339	relates to	HCATALOG-209
+PIG-2338	blocks	PIG-2337
+PIG-2337	is blocked by	PIG-2338
+PIG-2333	is superceded by	PIG-2010
+PIG-2332	relates to	PIG-1914
+PIG-2330	is duplicated by	PIG-3322
+PIG-2328	relates to	PIG-2348
+PIG-2328	relates to	PIG-4713
+PIG-2326	is related to	PIG-2451
+PIG-2319	is blocked by	HADOOP-7990
+PIG-2317	incorporates	PIG-2551
+PIG-2317	is blocked by	PIG-2598
+PIG-2317	relates to	PIG-928
+PIG-2316	relates to	PIG-3465
+PIG-2315	is depended upon by	PIG-3972
+PIG-2315	is duplicated by	PIG-2216
+PIG-2315	relates to	PIG-4933
+PIG-2284	relates to	HBASE-4415
+PIG-2282	relates to	HADOOP-6407
+PIG-2280	blocks	PIG-2270
+PIG-2279	duplicates	PIG-3114
+PIG-2279	is related to	PIG-2896
+PIG-2277	is related to	PIG-2125
+PIG-2277	is related to	HIVE-2468
+PIG-2270	is blocked by	PIG-2280
+PIG-2268	blocks	HCATALOG-92
+PIG-2267	blocks	HCATALOG-92
+PIG-2266	blocks	PIG-3015
+PIG-2265	is related to	PIG-3049
+PIG-2255	is blocked by	PIG-2254
+PIG-2254	blocks	PIG-2255
+PIG-2253	depends upon	PIG-2239
+PIG-2248	is related to	PIG-3314
+PIG-2247	breaks	PIG-3394
+PIG-2239	is depended upon by	PIG-2253
+PIG-2228	relates to	PIG-2829
+PIG-2228	relates to	PIG-2397
+PIG-2216	duplicates	PIG-2315
+PIG-2209	is related to	PIG-2489
+PIG-2207	breaks	PIG-3739
+PIG-2207	is related to	PIG-2191
+PIG-2207	is related to	PIG-5019
+PIG-2197	relates to	PIG-1661
+PIG-2191	relates to	PIG-2207
+PIG-2180	is related to	PIG-2162
+PIG-2179	is related to	PIG-2143
+PIG-2176	breaks	PIG-3020
+PIG-2165	is duplicated by	PIG-1630
+PIG-2165	is related to	PIG-2762
+PIG-2163	relates to	PIG-1916
+PIG-2162	is related to	PIG-2458
+PIG-2162	relates to	PIG-2180
+PIG-2160	duplicates	PIG-2055
+PIG-2156	is related to	PIG-1926
+PIG-2143	relates to	PIG-2179
+PIG-2142	is related to	PIG-1566
+PIG-2138	relates to	PIG-2360
+PIG-2137	is related to	PIG-2014
+PIG-2134	duplicates	PIG-4525
+PIG-2134	is related to	PIG-4525
+PIG-2127	is cloned by	PIG-3056
+PIG-2127	is superceded by	PIG-1016
+PIG-2125	incorporates	PIG-2347
+PIG-2125	is blocked by	MAPREDUCE-3138
+PIG-2125	is depended upon by	HCATALOG-179
+PIG-2125	is related to	MAPREDUCE-279
+PIG-2125	relates to	PIG-2277
+PIG-2125	relates to	PIG-2388
+PIG-2125	relates to	HIVE-2468
+PIG-2118	is related to	PIG-2087
+PIG-2114	is related to	PIG-2886
+PIG-2114	is related to	PIG-1832
+PIG-2101	is duplicated by	PIG-2542
+PIG-2087	relates to	PIG-2118
+PIG-2086	relates to	PIG-2414
+PIG-2082	is related to	PIG-1387
+PIG-2079	duplicates	PIG-2597
+PIG-2074	duplicates	PIG-2931
+PIG-2066	breaks	PIG-3916
+PIG-2066	is part of	PIG-2651
+PIG-2066	relates to	PIG-2065
+PIG-2065	is related to	PIG-2066
+PIG-2057	is blocked by	PIG-1577
+PIG-2055	is duplicated by	PIG-2160
+PIG-2038	relates to	PIG-1387
+PIG-2024	is duplicated by	PIG-1937
+PIG-2024	is duplicated by	PIG-1986
+PIG-2014	relates to	PIG-2137
+PIG-2010	supercedes	PIG-2333
+PIG-1997	relates to	PIG-1281
+PIG-1992	duplicates	PIG-1281
+PIG-1986	duplicates	PIG-2024
+PIG-1983	relates to	PIG-1971
+PIG-1971	is related to	PIG-1983
+PIG-1970	relates to	PIG-1966
+PIG-1966	is related to	PIG-1970
+PIG-1959	depends upon	PIG-1881
+PIG-1937	duplicates	PIG-2024
+PIG-1930	is related to	PIG-1922
+PIG-1927	depends upon	PIG-1868
+PIG-1926	relates to	PIG-2156
+PIG-1922	relates to	PIG-1930
+PIG-1916	is duplicated by	PIG-1665
+PIG-1916	is related to	PIG-2163
+PIG-1914	is related to	PIG-2641
+PIG-1914	is related to	PIG-2332
+PIG-1914	relates to	PIG-2641
+PIG-1904	is a clone of	PIG-1904
+PIG-1904	is cloned by	PIG-1904
+PIG-1895	relates to	PIG-1866
+PIG-1891	is related to	PIG-2935
+PIG-1891	is related to	PIG-3770
+PIG-1884	is related to	PIG-1680
+PIG-1881	is depended upon by	PIG-1959
+PIG-1876	relates to	PIG-3485
+PIG-1868	is depended upon by	PIG-1927
+PIG-1866	is related to	PIG-1895
+PIG-1866	relates to	PIG-1849
+PIG-1858	duplicates	PIG-1798
+PIG-1857	depends upon	PIG-805
+PIG-1857	relates to	HADOOP-6255
+PIG-1849	is related to	PIG-1866
+PIG-1844	is blocked by	HDFS-1616
+PIG-1833	relates to	PIG-1748
+PIG-1832	duplicates	PIG-4360
+PIG-1832	is duplicated by	PIG-2886
+PIG-1832	is related to	PIG-1782
+PIG-1832	relates to	PIG-2114
+PIG-1829	is related to	PIG-2429
+PIG-1829	requires	MAPREDUCE-1941
+PIG-1827	blocks	PIG-1819
+PIG-1824	is related to	PIG-2433
+PIG-1824	relates to	PIG-2665
+PIG-1819	is blocked by	PIG-1827
+PIG-1815	is duplicated by	PIG-1803
+PIG-1814	relates to	PIG-1714
+PIG-1804	relates to	PIG-1794
+PIG-1803	duplicates	PIG-1815
+PIG-1798	is duplicated by	PIG-1858
+PIG-1794	is related to	PIG-928
+PIG-1794	is related to	PIG-1479
+PIG-1794	is related to	PIG-1804
+PIG-1793	is depended upon by	PIG-206
+PIG-1791	relates to	PIG-1714
+PIG-1789	is blocked by	PIG-1674
+PIG-1786	blocks	PIG-767
+PIG-1786	blocks	PIG-1627
+PIG-1782	relates to	PIG-1832
+PIG-1778	is related to	PIG-1540
+PIG-1774	depends upon	PIG-1618
+PIG-1770	is related to	PIG-965
+PIG-1758	relates to	PIG-1371
+PIG-1758	relates to	PIG-613
+PIG-1752	relates to	PIG-1337
+PIG-1749	is depended upon by	PIG-1748
+PIG-1748	depends upon	PIG-1749
+PIG-1748	is related to	PIG-1833
+PIG-1748	relates to	HIVE-895
+PIG-1745	incorporates	PIG-1341
+PIG-1745	incorporates	PIG-1222
+PIG-1734	is related to	HIVE-1107
+PIG-1734	is related to	OOZIE-1178
+PIG-1734	is related to	HIVE-549
+PIG-1734	is superceded by	PIG-3446
+PIG-1734	is superceded by	PIG-4059
+PIG-1714	is related to	PIG-1791
+PIG-1714	is related to	PIG-1814
+PIG-1713	relates to	PIG-3221
+PIG-1713	relates to	PIG-3224
+PIG-1713	relates to	PIG-3225
+PIG-1712	is related to	PIG-59
+PIG-1711	is related to	PIG-1341
+PIG-1693	relates to	PIG-2511
+PIG-1680	relates to	PIG-1884
+PIG-1677	is blocked by	INFRA-3062
+PIG-1674	blocks	PIG-1789
+PIG-1669	relates to	PIG-4767
+PIG-1665	duplicates	PIG-1916
+PIG-1663	depends upon	PIG-1618
+PIG-1663	duplicates	PIG-516
+PIG-1661	is related to	PIG-2197
+PIG-1654	is related to	PIG-3397
+PIG-1633	is related to	PIG-3000
+PIG-1633	is related to	PIG-747
+PIG-1630	duplicates	PIG-2165
+PIG-1627	is blocked by	PIG-1786
+PIG-1623	depends upon	PIG-1618
+PIG-1622	blocks	PIG-1618
+PIG-1621	depends upon	PIG-1618
+PIG-1620	depends upon	PIG-1618
+PIG-1619	depends upon	PIG-1618
+PIG-1618	is blocked by	PIG-1622
+PIG-1618	is depended upon by	PIG-217
+PIG-1618	is depended upon by	PIG-394
+PIG-1618	is depended upon by	PIG-579
+PIG-1618	is depended upon by	PIG-838
+PIG-1618	is depended upon by	PIG-900
+PIG-1618	is depended upon by	PIG-1339
+PIG-1618	is depended upon by	PIG-19
+PIG-1618	is depended upon by	PIG-356
+PIG-1618	is depended upon by	PIG-377
+PIG-1618	is depended upon by	PIG-548
+PIG-1618	is depended upon by	PIG-583
+PIG-1618	is depended upon by	PIG-1623
+PIG-1618	is depended upon by	PIG-1663
+PIG-1618	is depended upon by	PIG-731
+PIG-1618	is depended upon by	PIG-596
+PIG-1618	is depended upon by	PIG-618
+PIG-1618	is depended upon by	PIG-1152
+PIG-1618	is depended upon by	PIG-1462
+PIG-1618	is depended upon by	PIG-1545
+PIG-1618	is depended upon by	PIG-1774
+PIG-1618	is depended upon by	PIG-144
+PIG-1618	is depended upon by	PIG-670
+PIG-1618	is depended upon by	PIG-674
+PIG-1618	is depended upon by	PIG-719
+PIG-1618	is depended upon by	PIG-1092
+PIG-1618	is depended upon by	PIG-1581
+PIG-1618	is depended upon by	PIG-1619
+PIG-1618	is depended upon by	PIG-1620
+PIG-1618	is depended upon by	PIG-1621
+PIG-1618	is depended upon by	PIG-1244
+PIG-1618	is depended upon by	PIG-1499
+PIG-1618	is depended upon by	PIG-1387
+PIG-1601	relates to	PIG-1312
+PIG-1581	depends upon	PIG-1618
+PIG-1577	blocks	PIG-2057
+PIG-1577	is related to	PIG-3444
+PIG-1566	relates to	PIG-2142
+PIG-1549	is required by	PIG-1532
+PIG-1549	is required by	PIG-1494
+PIG-1549	requires	PIG-1510
+PIG-1548	relates to	PIG-1434
+PIG-1545	depends upon	PIG-1618
+PIG-1540	relates to	PIG-1778
+PIG-1532	requires	PIG-1549
+PIG-1518	relates to	PIG-2462
+PIG-1513	is related to	PIG-5140
+PIG-1510	is required by	PIG-1549
+PIG-1510	is required by	PIG-1494
+PIG-1507	relates to	PIG-1289
+PIG-1499	depends upon	PIG-1618
+PIG-1494	requires	PIG-1549
+PIG-1494	requires	PIG-1510
+PIG-1486	relates to	PIG-1390
+PIG-1485	duplicates	PIG-1226
+PIG-1479	relates to	PIG-1794
+PIG-1462	depends upon	PIG-1618
+PIG-1457	relates to	PIG-1302
+PIG-1448	is duplicated by	PIG-1442
+PIG-1442	duplicates	PIG-1448
+PIG-1434	is related to	PIG-1548
+PIG-1431	is superceded by	PIG-3014
+PIG-1429	blocks	PIG-1097
+PIG-1429	is blocked by	PIG-1314
+PIG-1429	relates to	PIG-1314
+PIG-1424	blocks	PIG-1229
+PIG-1420	is superceded by	PIG-3444
+PIG-1412	is part of	PIG-1403
+PIG-1403	incorporates	PIG-1412
+PIG-1390	is related to	PIG-1486
+PIG-1387	depends upon	PIG-1618
+PIG-1387	is related to	PIG-2038
+PIG-1387	relates to	PIG-2082
+PIG-1387	relates to	PIG-1385
+PIG-1386	is blocked by	PIG-1303
+PIG-1385	is related to	PIG-1387
+PIG-1384	is duplicated by	PIG-1360
+PIG-1384	relates to	PIG-1364
+PIG-1381	is depended upon by	PIG-602
+PIG-1378	depends upon	MAPREDUCE-1522
+PIG-1378	is related to	PIG-1234
+PIG-1377	is blocked by	MAPREDUCE-1049
+PIG-1374	relates to	PIG-1172
+PIG-1371	is related to	PIG-1758
+PIG-1364	is related to	PIG-1384
+PIG-1361	is related to	PIG-1330
+PIG-1360	duplicates	PIG-1384
+PIG-1347	relates to	PIG-258
+PIG-1345	depends upon	PIG-908
+PIG-1341	is part of	PIG-1745
+PIG-1341	relates to	PIG-1711
+PIG-1339	depends upon	PIG-1618
+PIG-1337	is related to	PIG-1752
+PIG-1331	is duplicated by	PIG-823
+PIG-1331	is related to	PIG-823
+PIG-1330	relates to	PIG-1361
+PIG-1324	relates to	PIG-2397
+PIG-1319	is related to	PIG-1178
+PIG-1314	blocks	PIG-1310
+PIG-1314	blocks	PIG-1429
+PIG-1314	is related to	PIG-2996
+PIG-1314	is related to	PIG-1310
+PIG-1314	is related to	PIG-1429
+PIG-1314	relates to	PIG-2980
+PIG-1314	relates to	AVRO-739
+PIG-1314	relates to	HIVE-1269
+PIG-1314	relates to	PIG-2981
+PIG-1314	relates to	PIG-2982
+PIG-1312	is related to	PIG-1601
+PIG-1312	relates to	HIVE-1264
+PIG-1310	is blocked by	PIG-1314
+PIG-1310	relates to	PIG-1314
+PIG-1303	blocks	PIG-1386
+PIG-1303	is duplicated by	PIG-969
+PIG-1302	is related to	PIG-1457
+PIG-1297	duplicates	PIG-490
+PIG-1295	relates to	PIG-1038
+PIG-1289	is related to	PIG-1507
+PIG-1281	is duplicated by	PIG-1992
+PIG-1281	is related to	PIG-1997
+PIG-1280	is related to	PIG-62
+PIG-1278	is duplicated by	PIG-1238
+PIG-1277	is duplicated by	PIG-999
+PIG-1277	is duplicated by	PIG-1065
+PIG-1249	relates to	MAPREDUCE-1521
+PIG-1244	depends upon	PIG-1618
+PIG-1243	depends upon	PIG-613
+PIG-1238	duplicates	PIG-1278
+PIG-1236	duplicates	PIG-1233
+PIG-1234	relates to	PIG-1378
+PIG-1233	is duplicated by	PIG-1236
+PIG-1229	is blocked by	PIG-1424
+PIG-1226	is duplicated by	PIG-1485
+PIG-1222	is part of	PIG-1745
+PIG-1216	blocks	PIG-966
+PIG-1188	relates to	PIG-1131
+PIG-1188	relates to	PIG-2661
+PIG-1187	is related to	PIG-774
+PIG-1178	relates to	PIG-1319
+PIG-1174	is part of	PIG-966
+PIG-1172	is related to	PIG-1374
+PIG-1152	depends upon	PIG-1618
+PIG-1135	is a clone of	PIG-792
+PIG-1131	is related to	PIG-1188
+PIG-1112	relates to	PIG-998
+PIG-1097	is blocked by	PIG-1429
+PIG-1092	depends upon	PIG-1618
+PIG-1085	is depended upon by	PIG-602
+PIG-1077	is related to	PIG-3213
+PIG-1065	blocks	PIG-998
+PIG-1065	duplicates	PIG-1277
+PIG-1038	is related to	PIG-1295
+PIG-1033	is related to	MAPREDUCE-623
+PIG-1028	is duplicated by	PIG-482
+PIG-1016	supercedes	PIG-2127
+PIG-1000	is a clone of	PIG-975
+PIG-999	duplicates	PIG-1277
+PIG-998	is blocked by	PIG-1065
+PIG-998	is blocked by	PIG-847
+PIG-998	is related to	PIG-1112
+PIG-997	is related to	PIG-3213
+PIG-993	depends upon	PIG-986
+PIG-993	depends upon	PIG-992
+PIG-992	is depended upon by	PIG-993
+PIG-991	depends upon	PIG-987
+PIG-991	incorporates	PIG-917
+PIG-987	incorporates	PIG-945
+PIG-987	is depended upon by	PIG-991
+PIG-986	is depended upon by	PIG-993
+PIG-985	incorporates	PIG-982
+PIG-982	is part of	PIG-985
+PIG-981	blocks	PIG-953
+PIG-975	is a clone of	PIG-636
+PIG-975	is cloned by	PIG-1000
+PIG-969	duplicates	PIG-1303
+PIG-966	incorporates	PIG-1174
+PIG-966	is blocked by	PIG-879
+PIG-966	is blocked by	PIG-1216
+PIG-965	relates to	PIG-1770
+PIG-959	relates to	PIG-2673
+PIG-955	is a clone of	PIG-792
+PIG-954	is a clone of	PIG-792
+PIG-953	is blocked by	PIG-981
+PIG-945	is part of	PIG-987
+PIG-937	duplicates	PIG-918
+PIG-929	is a clone of	PIG-792
+PIG-928	is related to	PIG-2317
+PIG-928	relates to	PIG-1794
+PIG-924	incorporates	PIG-660
+PIG-922	is part of	PIG-697
+PIG-922	relates to	PIG-653
+PIG-918	is duplicated by	PIG-937
+PIG-917	is part of	PIG-991
+PIG-908	is depended upon by	PIG-1345
+PIG-908	relates to	PIG-864
+PIG-904	duplicates	PIG-669
+PIG-900	depends upon	PIG-1618
+PIG-891	is duplicated by	PIG-79
+PIG-883	is part of	PIG-832
+PIG-880	is part of	PIG-724
+PIG-879	blocks	PIG-966
+PIG-874	is blocked by	PIG-873
+PIG-873	blocks	PIG-874
+PIG-864	is related to	PIG-908
+PIG-856	is duplicated by	PIG-606
+PIG-847	blocks	PIG-998
+PIG-838	depends upon	PIG-1618
+PIG-833	is duplicated by	PIG-210
+PIG-832	incorporates	PIG-883
+PIG-829	blocks	PIG-564
+PIG-824	relates to	CALCITE-1598
+PIG-823	duplicates	PIG-1331
+PIG-823	relates to	PIG-1331
+PIG-822	is part of	PIG-812
+PIG-821	is superceded by	PIG-2353
+PIG-813	is a clone of	PIG-812
+PIG-813	is part of	PIG-812
+PIG-812	incorporates	PIG-813
+PIG-812	incorporates	PIG-822
+PIG-812	is cloned by	PIG-813
+PIG-805	is depended upon by	PIG-1857
+PIG-796	duplicates	PIG-724
+PIG-792	is cloned by	PIG-929
+PIG-792	is cloned by	PIG-954
+PIG-792	is cloned by	PIG-955
+PIG-792	is cloned by	PIG-1135
+PIG-774	relates to	PIG-1187
+PIG-773	is blocked by	PIG-561
+PIG-767	is blocked by	PIG-1786
+PIG-766	is cloned by	PIG-5353
+PIG-754	depends upon	PIG-564
+PIG-747	relates to	PIG-1633
+PIG-746	is related to	PIG-595
+PIG-739	depends upon	PIG-514
+PIG-739	is depended upon by	PIG-710
+PIG-736	is blocked by	PIG-728
+PIG-731	depends upon	PIG-1618
+PIG-731	duplicates	PIG-2507
+PIG-730	is blocked by	PIG-694
+PIG-728	blocks	PIG-736
+PIG-724	incorporates	PIG-880
+PIG-724	is duplicated by	PIG-796
+PIG-723	depends upon	PIG-694
+PIG-719	depends upon	PIG-1618
+PIG-710	depends upon	PIG-739
+PIG-710	depends upon	PIG-514
+PIG-697	incorporates	PIG-922
+PIG-694	blocks	PIG-730
+PIG-694	is depended upon by	PIG-723
+PIG-674	depends upon	PIG-1618
+PIG-670	depends upon	PIG-1618
+PIG-669	is duplicated by	PIG-904
+PIG-660	is part of	PIG-924
+PIG-653	is related to	PIG-922
+PIG-644	depends upon	PIG-485
+PIG-644	depends upon	PIG-584
+PIG-636	is cloned by	PIG-975
+PIG-618	depends upon	PIG-584
+PIG-618	depends upon	PIG-1618
+PIG-616	blocks	PIG-613
+PIG-614	duplicates	PIG-607
+PIG-613	is blocked by	PIG-616
+PIG-613	is depended upon by	PIG-1243
+PIG-613	is related to	PIG-1758
+PIG-609	duplicates	PIG-571
+PIG-609	is part of	PIG-588
+PIG-608	is related to	PIG-607
+PIG-607	is duplicated by	PIG-614
+PIG-607	relates to	PIG-608
+PIG-606	duplicates	PIG-856
+PIG-602	depends upon	PIG-1085
+PIG-602	depends upon	PIG-1381
+PIG-598	is duplicated by	PIG-267
+PIG-598	is related to	PIG-267
+PIG-596	depends upon	PIG-1618
+PIG-595	relates to	PIG-746
+PIG-588	incorporates	PIG-609
+PIG-584	is depended upon by	PIG-618
+PIG-584	is depended upon by	PIG-644
+PIG-583	depends upon	PIG-1618
+PIG-579	depends upon	PIG-1618
+PIG-571	is duplicated by	PIG-609
+PIG-569	is a clone of	PIG-252
+PIG-564	is blocked by	PIG-829
+PIG-564	is depended upon by	PIG-754
+PIG-561	blocks	PIG-773
+PIG-557	is a clone of	HADOOP-4729
+PIG-548	depends upon	PIG-1618
+PIG-535	is related to	PIG-2441
+PIG-516	is duplicated by	PIG-1663
+PIG-514	is depended upon by	PIG-710
+PIG-514	is depended upon by	PIG-739
+PIG-501	relates to	PIG-243
+PIG-490	is duplicated by	PIG-1297
+PIG-485	is depended upon by	PIG-644
+PIG-483	is blocked by	PIG-2779
+PIG-483	is related to	PIG-2675
+PIG-483	relates to	PIG-2772
+PIG-483	relates to	PIG-2784
+PIG-482	duplicates	PIG-1028
+PIG-478	duplicates	PIG-282
+PIG-474	depends upon	PIG-472
+PIG-473	depends upon	PIG-472
+PIG-472	is depended upon by	PIG-473
+PIG-472	is depended upon by	PIG-474
+PIG-419	is related to	PIG-4449
+PIG-419	is related to	PIG-4536
+PIG-410	relates to	PIG-2397
+PIG-394	depends upon	PIG-1618
+PIG-378	is depended upon by	PIG-339
+PIG-377	depends upon	PIG-1618
+PIG-356	depends upon	PIG-1618
+PIG-339	depends upon	PIG-378
+PIG-282	is duplicated by	PIG-478
+PIG-279	is depended upon by	PIG-252
+PIG-267	duplicates	PIG-598
+PIG-267	relates to	PIG-598
+PIG-258	is related to	PIG-1347
+PIG-252	depends upon	PIG-279
+PIG-252	depends upon	HADOOP-3498
+PIG-252	is cloned by	PIG-569
+PIG-249	is related to	PIG-157
+PIG-248	depends upon	PIG-157
+PIG-247	depends upon	PIG-157
+PIG-243	is related to	PIG-501
+PIG-243	is related to	PIG-2793
+PIG-217	depends upon	PIG-1618
+PIG-210	duplicates	PIG-833
+PIG-206	depends upon	PIG-1793
+PIG-200	relates to	PIG-2661
+PIG-198	is blocked by	HADOOP-3256
+PIG-196	is part of	PIG-157
+PIG-195	is related to	MAPREDUCE-215
+PIG-171	depends upon	PIG-157
+PIG-157	incorporates	PIG-22
+PIG-157	incorporates	PIG-52
+PIG-157	incorporates	PIG-196
+PIG-157	incorporates	PIG-9
+PIG-157	incorporates	PIG-73
+PIG-157	is depended upon by	PIG-171
+PIG-157	is depended upon by	PIG-54
+PIG-157	is depended upon by	PIG-248
+PIG-157	is depended upon by	PIG-49
+PIG-157	is depended upon by	PIG-247
+PIG-157	is depended upon by	PIG-7
+PIG-157	is depended upon by	PIG-50
+PIG-157	relates to	PIG-249
+PIG-144	depends upon	PIG-1618
+PIG-143	is duplicated by	PIG-142
+PIG-142	duplicates	PIG-143
+PIG-131	is a clone of	PIG-130
+PIG-130	is cloned by	PIG-131
+PIG-127	relates to	PIG-68
+PIG-121	is part of	PIG-111
+PIG-120	is related to	PIG-119
+PIG-119	relates to	PIG-120
+PIG-111	incorporates	PIG-121
+PIG-111	incorporates	PIG-93
+PIG-106	is related to	PIG-99
+PIG-99	relates to	PIG-106
+PIG-99	relates to	PIG-68
+PIG-98	is related to	PIG-83
+PIG-93	is part of	PIG-111
+PIG-93	is related to	PIG-32
+PIG-92	is related to	PIG-69
+PIG-92	is related to	PIG-32
+PIG-84	depends upon	PIG-83
+PIG-84	is related to	PIG-80
+PIG-83	is depended upon by	PIG-84
+PIG-83	relates to	PIG-98
+PIG-80	relates to	PIG-84
+PIG-79	duplicates	PIG-891
+PIG-77	relates to	PIG-41
+PIG-73	is part of	PIG-157
+PIG-71	is related to	HADOOP-2391
+PIG-69	relates to	PIG-92
+PIG-68	is related to	PIG-99
+PIG-68	is related to	PIG-127
+PIG-62	relates to	PIG-1280
+PIG-59	relates to	PIG-1712
+PIG-54	depends upon	PIG-157
+PIG-52	is part of	PIG-157
+PIG-50	depends upon	PIG-157
+PIG-49	depends upon	PIG-157
+PIG-42	relates to	MAPREDUCE-1795
+PIG-42	relates to	HADOOP-6835
+PIG-41	is related to	PIG-77
+PIG-40	duplicates	PIG-30
+PIG-32	relates to	PIG-93
+PIG-32	relates to	PIG-92
+PIG-30	is duplicated by	PIG-40
+PIG-22	is part of	PIG-157
+PIG-19	depends upon	PIG-2597
+PIG-19	depends upon	PIG-1618
+PIG-9	is part of	PIG-157
+PIG-7	depends upon	PIG-157
+PIG-6	is related to	HIVE-705

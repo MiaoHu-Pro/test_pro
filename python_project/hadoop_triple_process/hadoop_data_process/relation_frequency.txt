@@ -1,0 +1,32 @@
+31
+0	relates to	4725
+1	is related to	4707
+2	is depended upon by	1196
+3	depends upon	1076
+4	is duplicated by	967
+5	duplicates	925
+6	blocks	811
+7	incorporates	762
+8	breaks	623
+9	is blocked by	613
+10	is part of	602
+11	is broken by	547
+12	requires	269
+13	contains	256
+14	Is contained by	252
+15	is required by	242
+16	causes	201
+17	is caused by	188
+18	supercedes	146
+19	is superceded by	128
+20	is a parent of	110
+21	is a child of	97
+22	is cloned by	92
+23	is a clone of	85
+24	Dependent	37
+25	Blocked	36
+26	fixes	17
+27	is fixed by	16
+28	Dependency	7
+29	Discovered while testing	3
+30	Testing discovered	3

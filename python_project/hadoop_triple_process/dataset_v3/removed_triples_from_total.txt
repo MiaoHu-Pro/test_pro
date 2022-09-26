@@ -1,0 +1,19 @@
+18
+HADOOP-16795	mentioned in	Page
+HADOOP-16670	mentioned in	Page
+HADOOP-16577	mentioned in	Page
+HADOOP-16016	mentioned in	Page
+HADOOP-15958	mentioned in	Page
+HADOOP-15787	mentioned in	Page
+HADOOP-15473	mentioned in	Page
+HADOOP-15251	mentioned in	Page
+HADOOP-15153	mentioned in	Page
+HDFS-12220	mentioned in	Page
+HADOOP-14696	mentioned in	Page
+HDFS-11610	mentioned in	Page
+HADOOP-13984	mentioned in	Page
+HADOOP-13578	mentioned in	Page
+HADOOP-12760	mentioned in	Page
+HADOOP-12111	requires	PODLINGNAMESEARCH-80
+HADOOP-11717	mentioned in	Page
+HADOOP-10456	is related to	SPARK-1097

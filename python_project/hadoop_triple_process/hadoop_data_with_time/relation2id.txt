@@ -1,0 +1,32 @@
+31
+relates to	0
+is related to	1
+is depended upon by	2
+depends upon	3
+is duplicated by	4
+duplicates	5
+blocks	6
+incorporates	7
+breaks	8
+is blocked by	9
+is part of	10
+is broken by	11
+requires	12
+contains	13
+Is contained by	14
+is required by	15
+causes	16
+is caused by	17
+supercedes	18
+is superceded by	19
+is a parent of	20
+is a child of	21
+is cloned by	22
+is a clone of	23
+Dependent	24
+Blocked	25
+fixes	26
+is fixed by	27
+Dependency	28
+Discovered while testing	29
+Testing discovered	30

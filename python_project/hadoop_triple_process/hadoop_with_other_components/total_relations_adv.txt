@@ -1,0 +1,35 @@
+34
+is blocked by	0
+contains	1
+Is contained by	2
+requires	3
+depends upon	4
+split from	5
+is caused by	6
+is required by	7
+is depended upon by	8
+fixes	9
+is duplicated by	10
+Dependent	11
+split to	12
+Dependency	13
+is a clone of	14
+Parent Feature	15
+is a child of	16
+is related to	17
+is broken by	18
+supercedes	19
+blocks	20
+is superceded by	21
+is part of	22
+relates to	23
+Blocked	24
+is a parent of	25
+is cloned by	26
+Discovered while testing	27
+incorporates	28
+duplicates	29
+is fixed by	30
+Testing discovered	31
+breaks	32
+causes	33

@@ -1,0 +1,33 @@
+32
+0	relates to	1170
+1	is related to	1043
+2	depends upon	268
+3	is duplicated by	247
+4	is depended upon by	241
+5	duplicates	228
+6	incorporates	192
+7	is broken by	162
+8	breaks	151
+9	blocks	144
+10	is part of	132
+11	is blocked by	110
+12	contains	94
+13	causes	78
+14	is a parent of	77
+15	is caused by	67
+16	is required by	65
+17	Is contained by	60
+18	supercedes	45
+19	is superceded by	28
+20	requires	28
+21	is a clone of	28
+22	is cloned by	21
+23	Blocked	13
+24	is a child of	10
+25	Dependent	8
+26	is fixed by	7
+27	fixes	6
+28	mentioned in	5
+29	Dependency	3
+30	Discovered while testing	3
+31	Testing discovered	1

@@ -1,0 +1,27 @@
+26
+0	is related to	199
+1	relates to	169
+2	is depended upon by	69
+3	depends upon	60
+4	incorporates	51
+5	is part of	39
+6	is duplicated by	39
+7	blocks	34
+8	duplicates	33
+9	Is contained by	29
+10	is blocked by	26
+11	breaks	21
+12	is broken by	20
+13	is caused by	16
+14	causes	16
+15	contains	16
+16	requires	9
+17	is superceded by	7
+18	is required by	7
+19	supercedes	6
+20	is a parent of	5
+21	is cloned by	4
+22	is a clone of	3
+23	is a child of	2
+24	mentioned in	1
+25	is fixed by	1

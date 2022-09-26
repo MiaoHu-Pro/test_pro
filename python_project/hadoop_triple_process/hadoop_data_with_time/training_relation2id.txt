@@ -1,0 +1,27 @@
+26
+depends upon	3
+is duplicated by	4
+relates to	0
+is a child of	21
+is caused by	17
+requires	12
+is broken by	11
+is part of	10
+is related to	1
+Dependent	24
+Blocked	25
+blocks	6
+is a parent of	20
+incorporates	7
+duplicates	5
+causes	16
+breaks	8
+is blocked by	9
+supercedes	18
+is depended upon by	2
+is superceded by	19
+is cloned by	22
+Is contained by	14
+is required by	15
+is a clone of	23
+contains	13

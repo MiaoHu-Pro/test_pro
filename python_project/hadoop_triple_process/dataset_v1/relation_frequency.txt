@@ -1,0 +1,33 @@
+32
+0	relates to	2044
+1	is related to	1894
+2	depends upon	554
+3	is depended upon by	543
+4	is duplicated by	430
+5	duplicates	403
+6	incorporates	395
+7	is part of	334
+8	blocks	279
+9	is broken by	275
+10	breaks	267
+11	is blocked by	221
+12	contains	179
+13	Is contained by	161
+14	causes	141
+15	is caused by	133
+16	is required by	106
+17	is a parent of	91
+18	requires	81
+19	supercedes	79
+20	is superceded by	68
+21	is a clone of	48
+22	is cloned by	46
+23	Blocked	22
+24	is a child of	19
+25	Dependent	14
+26	mentioned in	11
+27	is fixed by	9
+28	fixes	7
+29	Dependency	5
+30	Discovered while testing	3
+31	Testing discovered	2

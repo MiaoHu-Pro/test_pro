@@ -1,0 +1,30 @@
+29
+0	relates to	188
+1	is related to	181
+2	is depended upon by	78
+3	depends upon	57
+4	duplicates	45
+5	is duplicated by	42
+6	incorporates	41
+7	is part of	38
+8	is blocked by	27
+9	breaks	25
+10	blocks	25
+11	is broken by	24
+12	Is contained by	19
+13	contains	14
+14	requires	12
+15	causes	12
+16	is superceded by	11
+17	is caused by	10
+18	supercedes	7
+19	is required by	6
+20	is cloned by	4
+21	is a clone of	3
+22	is a parent of	3
+23	is a child of	3
+24	Dependent	2
+25	Blocked	2
+26	mentioned in	1
+27	is fixed by	1
+28	Testing discovered	1

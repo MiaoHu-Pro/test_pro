@@ -1,0 +1,718 @@
+ Ticket-no	id	Summary	Project	IssueType	Status	Sub-task	IssuelinksCount	Issuelinks	Description	Created time	Updated time	attachment	resolution	priority
+HDT-64	0	Remove .gitignore files from source distribution	HDT	Bug	Open	[]	0	[]	None	2014-07-27T06:53:55.000+0000	2014-07-27T06:53:55.000+0000	[]	None	Major
+HDT-63	1	remove bin directory under o.a.hdt.ui project.	HDT	Bug	Closed	[]	0	[]	None	2014-07-05T06:55:10.000+0000	2014-07-18T03:26:16.000+0000	[<JIRA Attachment: filename='0001-HDT-63-replacing-bin-with-target-classes.patch', id='12654198', mimeType='text/x-patch'>]	Fixed	Trivial
+HDT-62	2	Replace images under the EPL licence	HDT	Bug	Closed	[]	0	[]	"There are a few  images under the o.a.hdt.ui/icons folder which require EPL license. Check if they are being used if so replace them with apache licence.
+
+The original source of EPL images is not working. The images can be downloaded from http://web.archive.org/web/20120426142722/http://tech.joelbecker.net/articles/resources/5-eclipseicons "	2014-07-05T06:54:13.000+0000	2014-07-20T04:10:13.000+0000	[<JIRA Attachment: filename='0001-HDT-62-removing-images-from-EPL-license.patch', id='12656436', mimeType='text/x-patch'>]	Fixed	Minor
+HDT-61	3	MapReduce Project wizard should support different multiple versions of hadoop	HDT	New Feature	Resolved	[]	0	[]	None	2014-06-11T03:55:55.000+0000	2014-06-20T08:52:47.000+0000	[<JIRA Attachment: filename='0001-HDT-61.patch', id='12650727', mimeType='text/x-patch'>]	Fixed	Major
+HDT-60	4	HDFS Actions should show error messages to user	HDT	Improvement	Open	[]	0	[]	While adding a HDFS server if there are error they get prompted back to the user. But after the site has been successfully added any error that  may occur are not getting prompted to the user. The plugin simply disconnects the server in such cases.	2014-05-23T03:45:04.000+0000	2014-05-23T03:45:04.000+0000	[]	None	Major
+HDT-59	5	Switch to Java 7	HDT	Improvement	Open	[]	0	[]	JDK 1.7 should be our default for future versions.	2014-05-16T08:01:03.000+0000	2014-05-16T10:45:15.000+0000	[]	None	Major
+HDT-58	6	"Distribute latest release as ""Eclipse Update Site"""	HDT	Improvement	Open	[]	0	[]	In order to use HDT one should be able to install the latest version from HDT-Project-Website Eclipse Update feature.	2014-05-16T07:42:23.000+0000	2014-05-16T07:42:23.000+0000	[]	None	Minor
+HDT-57	7	Update Wikipages with quickstart instructions.	HDT	Documentation	Open	[]	0	[]	"How to start with HDT? The Quick-start guide shows, how HDT can be installed from an Update-Site, how a new project is created and how a map reduce job is started. 
+
+Section 1:  Setup
+Section 2:  Create a project
+Section 3:  Run Jobs
+Section 4:  Inspect Zookeeper and HDFS data  "	2014-05-16T07:32:15.000+0000	2014-05-16T07:32:15.000+0000	[]	None	Major
+HDT-56	8	server.xmi is shared for all eclipse workspaces on a machine	HDT	Bug	Resolved	[]	0	[]	hdt.core plugin keeps track of servers in serve.xmi file. Currently the file is stored in the bundle iinstalled location. Due to this if we create a zookeeper server in a workspace it will be loaded in any new workspace.  This data should be workspace specific.	2014-05-16T07:17:17.000+0000	2014-05-23T03:25:00.000+0000	[<JIRA Attachment: filename='0002-HDT-56-server.xmi-is-shared.patch', id='12645212', mimeType='text/x-patch'>]	Fixed	Major
+HDT-55	9	Zookeeper Actions should show error messages to user	HDT	Improvement	Resolved	[]	0	[]	Curretly Zookeeper servers do not show error message to the user. Also it is possible to error a zookeeper to an invalid location. Modify all actions to show error messages and do not add a server if error in connection. This is the same behavior for HDFS and MR cluster.	2014-05-16T06:38:27.000+0000	2014-05-23T03:24:35.000+0000	[<JIRA Attachment: filename='0001-HDT-55-Adding-Error-Handling-to-ZooKeeper-Actions.patch', id='12645213', mimeType='text/x-patch'>]	Fixed	Major
+HDT-54	10	Added a wizard for cluster	HDT	Improvement	Resolved	[]	0	[]	Since there are wizards for HDFS and zookeeper, so one should be there for MR.	2014-05-15T09:59:50.000+0000	2014-05-23T03:24:09.000+0000	[<JIRA Attachment: filename='0001-HDT-54-Adding-a-CLusterView-Wizard.patch', id='12644990', mimeType='text/x-patch'>]	Fixed	Minor
+HDT-53	11	Adding ZooKeeper server via wizard should switch to the hadoop perspective	HDT	Improvement	Resolved	[]	0	[]	We can add a zookeper server without switching to the  hadoop perspective. In such a case the added server does not show up as the zookeeper server view is not getting displayed. In such cases we can ask the user if athe perspective can be switched to hadoop and  thus the view will show the added server.	2014-05-15T09:16:54.000+0000	2014-05-23T03:23:46.000+0000	[<JIRA Attachment: filename='0001-HDT-53-prompt-user-for-hadoop-perspective-on-adding-.patch', id='12644987', mimeType='text/x-patch'>]	Fixed	Minor
+HDT-52	12	Job rows in clusterView should not have edit location and Define location	HDT	Bug	Resolved	[]	0	[]	Edit Location and Define New Location options are mean for hadoop MR clusters and not for executed Jobs. These should be removed from the row selection.	2014-05-14T07:49:49.000+0000	2014-05-23T03:23:16.000+0000	[<JIRA Attachment: filename='0001-HDT-52-changing-menu-of-ClusterView.patch', id='12644793', mimeType='text/x-patch'>]	Fixed	Major
+HDT-51	13	classcastexception while removing Job	HDT	Bug	Resolved	[]	0	[]	"!ENTRY org.eclipse.ui 4 0 2014-05-14 13:00:24.214
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.apache.hadoop.mapred.JobID cannot be cast to java.lang.String
+	at java.lang.String.compareTo(String.java:108)
+	at java.util.TreeMap.getEntry(TreeMap.java:346)
+	at java.util.TreeMap.remove(TreeMap.java:595)
+	at java.util.Collections$SynchronizedMap.remove(Collections.java:2044)
+	at org.apache.hdt.hadoop.release.HadoopCluster.purgeJob(HadoopCluster.java:293)
+	at org.apache.hdt.ui.internal.mr.ClusterView$DeleteAction.run(ClusterView.java:97)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3554)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3179)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+"	2014-05-14T07:46:52.000+0000	2014-06-20T11:02:19.000+0000	[]	Fixed	Major
+HDT-50	14	'Run On Hadoop' should add HDFS location if found.	HDT	Improvement	Resolved	[]	0	[]	While using 'Run on hadoop' a node gets added to the cluster view to show job status. As an addon to complement this, it should also add the related HDFS site if available. 	2014-05-12T10:26:55.000+0000	2014-05-23T03:22:48.000+0000	[<JIRA Attachment: filename='0001-HDT-50-Adding-HDFS-site-if-found.patch', id='12644784', mimeType='text/x-patch'>, <JIRA Attachment: filename='0001-HDT-50-Adding-HDFS-site-if-found.patch', id='12644595', mimeType='text/x-patch'>]	Fixed	Minor
+HDT-49	15	Job does not launch on cluster	HDT	Bug	Resolved	[]	0	[]	While using 'Run on hadoop' to submit on a cluster the job does not run on cluster. Since the job is not submitted the cluster Jobtracker does not show status of the submitted job.	2014-05-01T10:15:39.000+0000	2014-05-09T04:29:27.000+0000	[<JIRA Attachment: filename='HDT-49.patch', id='12642821', mimeType='text/x-patch'>]	Fixed	Minor
+HDT-48	16	Fix NOTICE and LICENSE files 	HDT	Bug	Resolved	[]	0	[]	We need to fix LICENCE/NOTICE for the eclipse-icons, SLF4J and other third party stuff that we are packing. Check RC2 vote thread http://apache.markmail.org/message/hxjrxstjo2msz2vd for ref.	2013-12-04T10:46:56.000+0000	2014-03-31T03:37:46.000+0000	[<JIRA Attachment: filename='0001-HDT-48-Updated-the-notice-with-License-of-third-part.patch', id='12634165', mimeType='text/x-patch'>]	Fixed	Major
+HDT-46	17	Maven build fails on CentOS 6.4	HDT	Bug	Closed	[]	0	[]	"maven is not working in the fresh setup I try to use for a test.
+
+TODO: Find out, if there is a problem in mvn setup, or in pom.xml
+
+It looks like a plugin can not be installed on my platform. Can we fix this?
+
+ERROR-LOG:
+
+[INFO] Scanning for projects...
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] Error initializing: org.eclipse.tycho.p2.resolver.P2TargetPlatformResolver@59a02097
+java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:300)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:274)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:269)
+	at org.eclipse.tycho.p2.resolver.P2TargetPlatformResolver.initialize(P2TargetPlatformResolver.java:456)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.initialize(PlexusLifecycleManager.java:338)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.manageLifecycle(PlexusLifecycleManager.java:296)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.onProvision(PlexusLifecycleManager.java:148)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:108)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:55)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:68)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:45)
+	at com.google.inject.internal.InjectorImpl$3$1.call(InjectorImpl.java:965)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1011)
+	at com.google.inject.internal.InjectorImpl$3.get(InjectorImpl.java:961)
+	at com.google.inject.Scopes$1$1.get(Scopes.java:59)
+	at org.sonatype.guice.bean.locators.LazyBeanEntry.getValue(LazyBeanEntry.java:83)
+	at org.sonatype.guice.plexus.locators.LazyPlexusBean.getValue(LazyPlexusBean.java:49)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:253)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:245)
+	at org.eclipse.tycho.core.resolver.DefaultTargetPlatformResolverFactory.lookupPlatformResolver(DefaultTargetPlatformResolverFactory.java:74)
+	at org.eclipse.tycho.core.resolver.DefaultTychoDependencyResolver.setupProject(DefaultTychoDependencyResolver.java:80)
+	at org.eclipse.tycho.core.maven.TychoMavenLifecycleParticipant.afterProjectsRead(TychoMavenLifecycleParticipant.java:77)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:274)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+Caused by: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:184)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:153)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:118)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.locateRuntime(TychoOsgiRuntimeLocator.java:103)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.doStart(DefaultEquinoxEmbedder.java:78)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.start(DefaultEquinoxEmbedder.java:66)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:298)
+	... 34 more
+Caused by: org.codehaus.plexus.archiver.ArchiverException: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:158)
+	at org.codehaus.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:119)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:182)
+	... 40 more
+Caused by: java.io.IOException: Negative seek offset
+	at java.io.RandomAccessFile.seek(Native Method)
+	at org.codehaus.plexus.archiver.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:398)
+	at org.codehaus.plexus.archiver.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:269)
+	at org.codehaus.plexus.archiver.zip.ZipFile.<init>(ZipFile.java:152)
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:138)
+	... 42 more
+[ERROR] Internal error: java.lang.RuntimeException: Could not instantiate required component: com.google.inject.ProvisionException: Guice provision errors:
+[ERROR] 
+[ERROR] 1) Error notifying ProvisionListener org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager of org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2).
+[ERROR] Reason: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+[ERROR] while locating org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2)
+[ERROR] 
+[ERROR] 1 error
+[ERROR] role: org.eclipse.tycho.core.TargetPlatformResolver
+[ERROR] roleHint: p2: Negative seek offset
+[ERROR] -> [Help 1]
+org.apache.maven.InternalErrorException: Internal error: java.lang.RuntimeException: Could not instantiate required component
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:168)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+Caused by: java.lang.RuntimeException: Could not instantiate required component
+	at org.eclipse.tycho.core.resolver.DefaultTargetPlatformResolverFactory.lookupPlatformResolver(DefaultTargetPlatformResolverFactory.java:76)
+	at org.eclipse.tycho.core.resolver.DefaultTychoDependencyResolver.setupProject(DefaultTychoDependencyResolver.java:80)
+	at org.eclipse.tycho.core.maven.TychoMavenLifecycleParticipant.afterProjectsRead(TychoMavenLifecycleParticipant.java:77)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:274)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	... 11 more
+Caused by: org.codehaus.plexus.component.repository.exception.ComponentLookupException: com.google.inject.ProvisionException: Guice provision errors:
+
+1) Error notifying ProvisionListener org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager of org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2).
+ Reason: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+  while locating org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2)
+
+1 error
+      role: org.eclipse.tycho.core.TargetPlatformResolver
+  roleHint: p2
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:257)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:245)
+	at org.eclipse.tycho.core.resolver.DefaultTargetPlatformResolverFactory.lookupPlatformResolver(DefaultTargetPlatformResolverFactory.java:74)
+	... 15 more
+Caused by: com.google.inject.ProvisionException: Guice provision errors:
+
+1) Error notifying ProvisionListener org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager of org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2).
+ Reason: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+  while locating org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2)
+
+1 error
+	at com.google.inject.internal.InjectorImpl$3.get(InjectorImpl.java:974)
+	at com.google.inject.Scopes$1$1.get(Scopes.java:59)
+	at org.sonatype.guice.bean.locators.LazyBeanEntry.getValue(LazyBeanEntry.java:83)
+	at org.sonatype.guice.plexus.locators.LazyPlexusBean.getValue(LazyPlexusBean.java:49)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:253)
+	... 17 more
+Caused by: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:300)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:274)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:269)
+	at org.eclipse.tycho.p2.resolver.P2TargetPlatformResolver.initialize(P2TargetPlatformResolver.java:456)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.initialize(PlexusLifecycleManager.java:338)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.manageLifecycle(PlexusLifecycleManager.java:296)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.onProvision(PlexusLifecycleManager.java:148)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:108)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:55)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:68)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:45)
+	at com.google.inject.internal.InjectorImpl$3$1.call(InjectorImpl.java:965)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1011)
+	at com.google.inject.internal.InjectorImpl$3.get(InjectorImpl.java:961)
+	... 21 more
+Caused by: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:184)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:153)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:118)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.locateRuntime(TychoOsgiRuntimeLocator.java:103)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.doStart(DefaultEquinoxEmbedder.java:78)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.start(DefaultEquinoxEmbedder.java:66)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:298)
+	... 34 more
+Caused by: org.codehaus.plexus.archiver.ArchiverException: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:158)
+	at org.codehaus.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:119)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:182)
+	... 40 more
+Caused by: java.io.IOException: Negative seek offset
+	at java.io.RandomAccessFile.seek(Native Method)
+	at org.codehaus.plexus.archiver.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:398)
+	at org.codehaus.plexus.archiver.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:269)
+	at org.codehaus.plexus.archiver.zip.ZipFile.<init>(ZipFile.java:152)
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:138)
+	... 42 more
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/InternalErrorException"	2013-10-23T11:25:38.000+0000	2013-10-24T18:28:18.000+0000	[]	Not A Problem	Blocker
+HDT-45	18	Maven build fails on CentOS 6.4	HDT	Bug	Closed	[]	0	[]	"maven is not working in the fresh setup I try to use for a test.
+
+TODO: Find out, if there is a problem in mvn setup, or in pom.xml
+
+It looks like a plugin can not be installed on my platform. Can we fix this?
+
+ERROR-LOG:
+
+[INFO] Scanning for projects...
+[WARNING] No explicit target runtime environment configuration. Build is platform dependent.
+[WARNING] Error initializing: org.eclipse.tycho.p2.resolver.P2TargetPlatformResolver@59a02097
+java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:300)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:274)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:269)
+	at org.eclipse.tycho.p2.resolver.P2TargetPlatformResolver.initialize(P2TargetPlatformResolver.java:456)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.initialize(PlexusLifecycleManager.java:338)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.manageLifecycle(PlexusLifecycleManager.java:296)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.onProvision(PlexusLifecycleManager.java:148)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:108)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:55)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:68)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:45)
+	at com.google.inject.internal.InjectorImpl$3$1.call(InjectorImpl.java:965)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1011)
+	at com.google.inject.internal.InjectorImpl$3.get(InjectorImpl.java:961)
+	at com.google.inject.Scopes$1$1.get(Scopes.java:59)
+	at org.sonatype.guice.bean.locators.LazyBeanEntry.getValue(LazyBeanEntry.java:83)
+	at org.sonatype.guice.plexus.locators.LazyPlexusBean.getValue(LazyPlexusBean.java:49)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:253)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:245)
+	at org.eclipse.tycho.core.resolver.DefaultTargetPlatformResolverFactory.lookupPlatformResolver(DefaultTargetPlatformResolverFactory.java:74)
+	at org.eclipse.tycho.core.resolver.DefaultTychoDependencyResolver.setupProject(DefaultTychoDependencyResolver.java:80)
+	at org.eclipse.tycho.core.maven.TychoMavenLifecycleParticipant.afterProjectsRead(TychoMavenLifecycleParticipant.java:77)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:274)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+Caused by: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:184)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:153)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:118)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.locateRuntime(TychoOsgiRuntimeLocator.java:103)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.doStart(DefaultEquinoxEmbedder.java:78)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.start(DefaultEquinoxEmbedder.java:66)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:298)
+	... 34 more
+Caused by: org.codehaus.plexus.archiver.ArchiverException: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:158)
+	at org.codehaus.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:119)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:182)
+	... 40 more
+Caused by: java.io.IOException: Negative seek offset
+	at java.io.RandomAccessFile.seek(Native Method)
+	at org.codehaus.plexus.archiver.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:398)
+	at org.codehaus.plexus.archiver.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:269)
+	at org.codehaus.plexus.archiver.zip.ZipFile.<init>(ZipFile.java:152)
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:138)
+	... 42 more
+[ERROR] Internal error: java.lang.RuntimeException: Could not instantiate required component: com.google.inject.ProvisionException: Guice provision errors:
+[ERROR] 
+[ERROR] 1) Error notifying ProvisionListener org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager of org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2).
+[ERROR] Reason: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+[ERROR] while locating org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2)
+[ERROR] 
+[ERROR] 1 error
+[ERROR] role: org.eclipse.tycho.core.TargetPlatformResolver
+[ERROR] roleHint: p2: Negative seek offset
+[ERROR] -> [Help 1]
+org.apache.maven.InternalErrorException: Internal error: java.lang.RuntimeException: Could not instantiate required component
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:168)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+Caused by: java.lang.RuntimeException: Could not instantiate required component
+	at org.eclipse.tycho.core.resolver.DefaultTargetPlatformResolverFactory.lookupPlatformResolver(DefaultTargetPlatformResolverFactory.java:76)
+	at org.eclipse.tycho.core.resolver.DefaultTychoDependencyResolver.setupProject(DefaultTychoDependencyResolver.java:80)
+	at org.eclipse.tycho.core.maven.TychoMavenLifecycleParticipant.afterProjectsRead(TychoMavenLifecycleParticipant.java:77)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:274)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	... 11 more
+Caused by: org.codehaus.plexus.component.repository.exception.ComponentLookupException: com.google.inject.ProvisionException: Guice provision errors:
+
+1) Error notifying ProvisionListener org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager of org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2).
+ Reason: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+  while locating org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2)
+
+1 error
+      role: org.eclipse.tycho.core.TargetPlatformResolver
+  roleHint: p2
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:257)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:245)
+	at org.eclipse.tycho.core.resolver.DefaultTargetPlatformResolverFactory.lookupPlatformResolver(DefaultTargetPlatformResolverFactory.java:74)
+	... 15 more
+Caused by: com.google.inject.ProvisionException: Guice provision errors:
+
+1) Error notifying ProvisionListener org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager of org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2).
+ Reason: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+  while locating org.eclipse.tycho.core.TargetPlatformResolver annotated with @com.google.inject.name.Named(value=p2)
+
+1 error
+	at com.google.inject.internal.InjectorImpl$3.get(InjectorImpl.java:974)
+	at com.google.inject.Scopes$1$1.get(Scopes.java:59)
+	at org.sonatype.guice.bean.locators.LazyBeanEntry.getValue(LazyBeanEntry.java:83)
+	at org.sonatype.guice.plexus.locators.LazyPlexusBean.getValue(LazyPlexusBean.java:49)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:253)
+	... 17 more
+Caused by: java.lang.RuntimeException: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:300)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:274)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.getService(DefaultEquinoxEmbedder.java:269)
+	at org.eclipse.tycho.p2.resolver.P2TargetPlatformResolver.initialize(P2TargetPlatformResolver.java:456)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.initialize(PlexusLifecycleManager.java:338)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.manageLifecycle(PlexusLifecycleManager.java:296)
+	at org.sonatype.guice.plexus.lifecycles.PlexusLifecycleManager.onProvision(PlexusLifecycleManager.java:148)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:108)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:55)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:68)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:45)
+	at com.google.inject.internal.InjectorImpl$3$1.call(InjectorImpl.java:965)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1011)
+	at com.google.inject.internal.InjectorImpl$3.get(InjectorImpl.java:961)
+	... 21 more
+Caused by: org.apache.maven.MavenExecutionException: Failed to unpack Tycho's OSGi runtime: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:184)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:153)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifacts(TychoOsgiRuntimeLocator.java:118)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.locateRuntime(TychoOsgiRuntimeLocator.java:103)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.doStart(DefaultEquinoxEmbedder.java:78)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.start(DefaultEquinoxEmbedder.java:66)
+	at org.eclipse.sisu.equinox.embedder.internal.DefaultEquinoxEmbedder.checkStarted(DefaultEquinoxEmbedder.java:298)
+	... 34 more
+Caused by: org.codehaus.plexus.archiver.ArchiverException: Error while expanding /home/training/.m2/repository/org/eclipse/tycho/tycho-bundles-external/0.16.0/tycho-bundles-external-0.16.0.zip
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:158)
+	at org.codehaus.plexus.archiver.AbstractUnArchiver.extract(AbstractUnArchiver.java:119)
+	at org.eclipse.tycho.osgi.runtime.TychoOsgiRuntimeLocator.addRuntimeArtifact(TychoOsgiRuntimeLocator.java:182)
+	... 40 more
+Caused by: java.io.IOException: Negative seek offset
+	at java.io.RandomAccessFile.seek(Native Method)
+	at org.codehaus.plexus.archiver.zip.ZipFile.positionAtCentralDirectory(ZipFile.java:398)
+	at org.codehaus.plexus.archiver.zip.ZipFile.populateFromCentralDirectory(ZipFile.java:269)
+	at org.codehaus.plexus.archiver.zip.ZipFile.<init>(ZipFile.java:152)
+	at org.codehaus.plexus.archiver.zip.AbstractZipUnArchiver.execute(AbstractZipUnArchiver.java:138)
+	... 42 more
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/InternalErrorException"	2013-10-23T11:25:20.000+0000	2013-10-24T18:27:51.000+0000	[]	Not A Problem	Blocker
+HDT-44	19	NPE while trying to open New HDFS Server Wizard	HDT	Bug	Resolved	[]	0	[]	"After installing the 0.0.1rc, I tried to open the new hdfs server wizard, I get the below trace.
+
+Reproduced with fresh installs of juno and kepler classic on os x 10.8.5
+
+java.lang.NullPointerException
+	at org.apache.hdt.ui.internal.hdfs.NewHDFSServerWizardPage.getUserAndGroupIds(NewHDFSServerWizardPage.java:195)
+	at org.apache.hdt.ui.internal.hdfs.NewHDFSServerWizardPage.createControl(NewHDFSServerWizardPage.java:126)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:174)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:736)
+	at org.eclipse.jface.wizard.WizardDialog.setWizard(WizardDialog.java:1182)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1241)
+	at org.eclipse.jface.wizard.WizardDialog.access$4(WizardDialog.java:1238)
+	at org.eclipse.jface.wizard.WizardDialog$8.run(WizardDialog.java:1227)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1225)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:915)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:428)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:259)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:279)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:285)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:504)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:555)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:376)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:322)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:84)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1080)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4165)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1503)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Tree.sendKeyEvent(Tree.java:2575)
+	at org.eclipse.swt.widgets.Control.keyDown(Control.java:2396)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:607)
+	at org.eclipse.swt.widgets.Tree.keyDown(Tree.java:1971)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5558)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:221)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2104)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2318)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5620)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5057)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5206)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+"	2013-10-20T02:42:25.000+0000	2013-11-13T11:14:19.000+0000	[<JIRA Attachment: filename='0001-fixed-HDT-44-and-some-other-issues.patch', id='12611000', mimeType='text/x-patch'>]	Fixed	Major
+HDT-43	20	Add a distribution module for release artifacts	HDT	Sub-task	Resolved	[]	0	[]	We need to a distribution module to make source and binary artifacts of the release 	2013-10-04T10:58:06.000+0000	2014-05-05T06:56:36.000+0000	[<JIRA Attachment: filename='0001-HDT-43-Added-a-Distibution-module.patch', id='12606773', mimeType='text/x-patch'>]	Fixed	Major
+HDT-42	21	Add missing License Notice Disclaimer	HDT	Sub-task	Resolved	[]	0	[]	Add/Update missing License, Notice, Disclaimer	2013-10-03T08:19:59.000+0000	2014-05-05T06:56:15.000+0000	[<JIRA Attachment: filename='0001-fixed-missing-License-Disclamer-Notice.patch', id='12606541', mimeType='text/x-patch'>, <JIRA Attachment: filename='HDT-42.patch', id='12606764', mimeType='text/x-patch'>]	Fixed	Major
+HDT-41	22	Provide existing MapReduce functionality in Hadoop perspective	HDT	Sub-task	Resolved	[]	0	[]	Post merge HDT should have exiting MapReduce functionality.	2013-09-17T07:16:25.000+0000	2014-05-09T04:26:06.000+0000	[<JIRA Attachment: filename='HDT-41_2.path', id='12641665', mimeType='application/octet-stream'>, <JIRA Attachment: filename='HDT-41.patch', id='12642634', mimeType='text/x-patch'>, <JIRA Attachment: filename='HDT-41.patch', id='12641217', mimeType='text/x-patch'>]	Fixed	Major
+HDT-40	23	Wizard action icons missing in Hadoop perspective	HDT	Sub-task	Resolved	[]	0	[]	New wizard actions did not have the icons.	2013-09-17T07:14:41.000+0000	2014-05-05T06:55:53.000+0000	[<JIRA Attachment: filename='0004-HDT-40.-Wizard-action-icons-missing-in-Hadoop-perspe_2.patch', id='12605400', mimeType='text/plain'>, <JIRA Attachment: filename='0004-HDT-40.-Wizard-action-icons-missing-in-Hadoop-perspe.patch', id='12605213', mimeType='text/plain'>]	Fixed	Major
+HDT-39	24	Use maven build to package bundles	HDT	Sub-task	Resolved	[]	0	[]	Currently there are missing JARs which we want to get through pom.xmls.	2013-08-01T07:01:56.000+0000	2014-05-05T06:55:20.000+0000	[<JIRA Attachment: filename='0001-Added-lazyActivator-for-hdt-core.patch', id='12597651', mimeType='text/x-patch'>, <JIRA Attachment: filename='0001-HDT-39-Using-maven-to-build-package.patch', id='12602309', mimeType='text/x-patch'>, <JIRA Attachment: filename='0001-HDT-39-Using-maven-to-build-package.patch', id='12596520', mimeType='text/x-patch'>, <JIRA Attachment: filename='HDT-39.patch', id='12598396', mimeType='text/x-patch'>]	Fixed	Major
+HDT-38	25	Update the P2 Repository for Kepler	HDT	Task	Open	[]	0	[]	With the release of Eclipse Kepler the P2 repository in the pom.xml can be updated from Juno.	2013-07-27T19:46:19.000+0000	2013-07-27T19:55:54.000+0000	[<JIRA Attachment: filename='HDT-38.patch', id='12594555', mimeType='text/x-patch'>]	None	Trivial
+HDT-37	26	Merge ZooKeeper UI functionality into HDT	HDT	Sub-task	Resolved	[]	0	[]	Hadoop-Eclipse ZooKeeper functionality can be split into core and UI work. This JIRA covers the UI work required to merge into HDT.	2013-06-18T16:49:36.000+0000	2014-05-05T06:54:47.000+0000	[]	Fixed	Major
+HDT-36	27	Merge ZooKeeper core functionality into HDT	HDT	Sub-task	Resolved	[]	0	[]	Hadoop-Eclipse ZooKeeper functionality can be split into core and UI work. This JIRA covers the core work required to merge into HDT.	2013-06-18T16:49:06.000+0000	2014-05-05T06:54:36.000+0000	[]	Fixed	Major
+HDT-35	28	Merge HDFS UI functionality into HDT	HDT	Sub-task	Resolved	[]	0	[]	Hadoop-Eclipse HDFS work can be split into core and UI. This effort is to merge the HDFS UI functionality.	2013-06-18T16:46:50.000+0000	2014-05-05T06:53:58.000+0000	[]	Fixed	Major
+HDT-34	29	Merge HDFS core functionality into HDT 	HDT	Sub-task	Resolved	[]	0	[]	Hadoop-Eclipse HDFS work can be split into core and UI. This effort is to merge the the core functionality.	2013-06-18T16:46:01.000+0000	2014-05-05T06:53:49.000+0000	[]	Fixed	Major
+HDT-33	30	Merge core server model persistence into HDT	HDT	Sub-task	Resolved	[]	0	[]	Definition and states of servers in Hadoop-Eclipse need to be merged into HDT.	2013-06-18T16:44:43.000+0000	2014-05-05T06:53:17.000+0000	[]	Fixed	Major
+HDT-32	31	Merge the code base of Hadoop-Eclipse project into HDT	HDT	Epic	Resolved	[<JIRA Issue: key='HDT-33', id='12653500'>, <JIRA Issue: key='HDT-34', id='12653501'>, <JIRA Issue: key='HDT-35', id='12653502'>, <JIRA Issue: key='HDT-36', id='12653503'>, <JIRA Issue: key='HDT-37', id='12653504'>, <JIRA Issue: key='HDT-39', id='12661065'>, <JIRA Issue: key='HDT-40', id='12668950'>, <JIRA Issue: key='HDT-41', id='12668951'>, <JIRA Issue: key='HDT-42', id='12672101'>, <JIRA Issue: key='HDT-43', id='12672317'>]	0	[]	"Merge the code of Hadoop Eclipse project (http://people.apache.org/~srimanth/hadoop-eclipse/) into the HDT project.
+
+At the core level:
+- Server model persistence (EMF model)
+- HDFS server functionality
+- ZooKeeper server functionality
+
+At the UI level:
+- HDFS server UI
+- ZooKeeper server UI
+
+"	2013-06-18T16:31:51.000+0000	2014-05-09T04:27:02.000+0000	[<JIRA Attachment: filename='HDT-32.patch', id='12593391', mimeType='text/plain'>]	Fixed	Major
+HDT-31	32	Add tests for org.apache.hdt.core	HDT	Improvement	Open	[]	0	[]	Add test to  org.apache.hdt.core	2013-05-30T11:26:14.000+0000	2013-05-30T11:36:00.000+0000	[<JIRA Attachment: filename='0001-Adding-tycho-test-surefire-plugin-for-unit-testing.patch', id='12585396', mimeType='text/x-patch'>]	None	Major
+HDT-30	33	Apache license headers are missing in source files eg pom.xmls, Activators etc. Add Rat -plugin to do a check 	HDT	Bug	Resolved	[]	0	[]	Apache license headers are missing in source files eg pom.xmls, Activators etc. Add Rat-plugin to do a check. Also may be add rat plugin to a a report generation. 	2013-05-20T08:54:45.000+0000	2014-05-09T04:11:51.000+0000	[<JIRA Attachment: filename='HDT-30.patch', id='12583807', mimeType='text/x-patch'>]	Fixed	Major
+HDT-29	34	Dependency Management for different Clusters	HDT	Improvement	Open	[]	0	[]	"A Hadoop Cluster should be represented by a copy of it's config files and all libraries which are deployed to the cluster nodes within this cluster. Such a setup is more or less static but not all the times. Therefore we can use versioning (based on git, svn). That data should be imported if new files are in the cluster (checks based on MD5Hash of files). Right now no EDIT functionality just load as readonly and switch through different states. 
+The result will be an Eclipse-Project within the current developer workspace. This type will be called ""ClusterReferenceProject"" and it is the data source for the cluster connection Wizards and views we have in HDT. This way it is much less work to connect to a cluster and to switch between different cluster for testing new code. 
+Java Projects can reference such files directly even if no Maven is used."	2013-05-01T20:53:40.000+0000	2013-05-01T20:53:40.000+0000	[]	None	Major
+HDT-28	35	Review Request	HDT	Question	Resolved	[]	0	[]	"How do we have to procede with the ""pull request""?
+
+https://github.com/apache/incubator-hdt/pull/1"	2013-05-01T16:19:29.000+0000	2013-05-02T02:58:53.000+0000	[]	Fixed	Major
+HDT-27	36	Define top level perspectives within the HDT projects	HDT	New Feature	Open	[]	0	[]	"For several contexts of ""developers daily work"" we should offer different perspectives and views.
+
+The most important are related to the cluster connections. We need access to multiple clusters with multiple different versions, managed within on workspace.
+
+The wizards for MR development and Hive / Pig projects (later also Flume, Oozie etc.) will be part of the developer perspective.
+
+To submit jobs and for definition of workflows we need an Operator perspective.  
+"	2013-04-09T09:36:10.000+0000	2013-04-09T09:36:10.000+0000	[]	None	Major
+HDT-26	37	Decoupling Plugins from the real hadoop-cluster via Cluster-Proxy 	HDT	New Feature	Open	[]	0	[]	"In order to decouple the eclipse plugins from real clusters, 
+I would suggest to work with web services on the developers machine, 
+which connects to real clusters and act like a command gateway.
+
+All plugins act just as consumer of the web services, which map to real cluster services.
+Each cluster proxy hast its own configuration. So we can compile against different versions
+and even connect to multiple cluster. Libraries are managed via maven dependencies and
+the plugin structure is much more easy without the need for playing around with multiple
+hadoop versions.
+
+Would this be a reasonable approach?  "	2013-04-09T07:39:58.000+0000	2013-04-09T09:39:20.000+0000	[<JIRA Attachment: filename='Definition of Top Level Perspectives .doc', id='12577761', mimeType='application/msword'>, <JIRA Attachment: filename='Definition of Top Level Perspectives .pdf', id='12577760', mimeType='application/pdf'>]	None	Major
+HDT-25	38	"The command (""dfs.browser.action.delete"") is undefined"	HDT	Bug	Resolved	[]	0	[]	"!ENTRY org.eclipse.jface 4 0 2013-04-08 09:03:44.830
+!MESSAGE The command (""dfs.browser.action.delete"") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:370)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:647)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:703)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:891)
+	at org.eclipse.ui.internal.PopupMenuExtender.addMenuContributions(PopupMenuExtender.java:415)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:389)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4136)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1458)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1481)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1462)
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:806)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5549)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:77)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:278)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4059)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3614)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+"	2013-04-08T16:07:05.000+0000	2013-06-20T06:54:00.000+0000	[<JIRA Attachment: filename='HDT-25.patch', id='12582894', mimeType='text/x-patch'>]	Fixed	Major
+HDT-24	39	No connection to testcluster	HDT	Bug	Open	[]	0	[]	"It is not possible to connect to the testcluster.
+
+!MESSAGE An internal error occurred during: ""Connecting to DFS MyResearchCluster"".
+!STACK 0
+java.lang.NoClassDefFoundError: org/apache/commons/configuration/Configuration
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.<init>(DefaultMetricsSystem.java:37)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.<clinit>(DefaultMetricsSystem.java:34)
+	at org.apache.hadoop.security.UgiInstrumentation.create(UgiInstrumentation.java:51)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:216)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:184)
+	at org.apache.hadoop.security.UserGroupInformation.isSecurityEnabled(UserGroupInformation.java:236)
+	at org.apache.hadoop.security.KerberosName.<clinit>(KerberosName.java:79)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:209)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:184)
+	at org.apache.hadoop.security.UserGroupInformation.isSecurityEnabled(UserGroupInformation.java:236)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:466)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:452)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:1494)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:1395)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:254)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:123)
+	at org.apache.hdt.core.cluster.HadoopCluster.getDFS(HadoopCluster.java:474)
+	at org.apache.hdt.dfs.core.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hdt.dfs.core.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hdt.dfs.core.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.configuration.Configuration
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	... 21 more
+"	2013-04-08T15:10:35.000+0000	2013-10-25T04:20:00.000+0000	[]	None	Blocker
+HDT-23	40	Raw Files for Icons should be added to the repository.	HDT	Task	Open	[]	0	[]	"In order to allow a constistent look and feel for icons and images, we should organize the
+raw files  which can be used as templates within the repository. 
+I could create icons for for ""new partitioner"" and ""new combiner"" wizards, just
+by changing some background color and the letter.
+"	2013-04-07T16:49:47.000+0000	2013-04-12T17:04:15.000+0000	[]	None	Minor
+HDT-22	41	Create an ssh based cluster connector to import current jar files	HDT	Improvement	Open	[]	0	[]	"SSH based CLUSTER connector :
+=========================
+- Install the Remote System Explorer
+- connect to a Cluster-Node via SSH (part of the RSE)
+- create a linked-folder within Eclipse which points to the location of the jar files on the clusternode
+- those jar-files can be added to the projects class path.
+
+I think we need a connector, which either connects directly to the classpath of a certain cluster node (we assume all nodes are equally installed) or we maintain profiles for Hadoop Installations. The second part would lead to a massive amount of work. 
+
+So an direct ""JAR importer / synchronizer"" which grabs a ""jar-profile from a cluster node can solve a lot of problems. In this situation the developer has exactly that JARs which are available in his cluster. 
+
+Beside this we should maintain a selection of relevant profile, to work against, even id you are not connected directly with a certain cluster.  
+
+"	2013-04-06T14:48:23.000+0000	2013-04-06T14:48:23.000+0000	[]	None	Minor
+HDT-21	42	The new Mapper, Reducer and MapReduceDriver wizard need to be migrated from the old api	HDT	Improvement	Resolved	[]	0	[]	"All three are using types in the original api, located in org.apache.hadoop.mapred.
+
+These need to be updated to create things based off the api in org.apache.hadoop.mapreduce."	2013-03-26T21:04:30.000+0000	2014-05-09T04:08:59.000+0000	[<JIRA Attachment: filename='HDT-21.patch', id='12581467', mimeType='text/plain'>, <JIRA Attachment: filename='HDT-21-2.patch', id='12582470', mimeType='text/plain'>, <JIRA Attachment: filename='screen_01.tiff', id='12577376', mimeType='image/tiff'>]	Fixed	Major
+HDT-20	43	Excessive number of jars added to MapReduce project classpath	HDT	Bug	Resolved	[]	0	[]	After all of the hadoop-core dependencies were added, all of those jars are now added to the bundle classpath, only really hadoop-core needs to be.	2013-03-26T01:57:20.000+0000	2013-04-06T14:44:57.000+0000	[]	Fixed	Minor
+HDT-19	44	Remove project configuration files from maven build 	HDT	Bug	Open	[]	0	[]	Remove classpath, project and setting and add them to git ignore. These are generated every time by maven build .	2013-03-14T05:42:21.000+0000	2013-03-20T15:34:17.000+0000	[<JIRA Attachment: filename='Removing-project-config.patch', id='12573680', mimeType='text/x-patch'>]	None	Minor
+HDT-18	45	java.lang.ClassNotFoundException thown while running plugin	HDT	Bug	Resolved	[]	0	[]	"Plugin.xml in org.apache.hdt.dfs.ui does not contain correct ClasNames and package name due to which the following stacktrace is reported while running the plugin
+
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.apache.hdt.dfs.ui was unable to load class org.apache.hadoop.eclipse.dfs.ActionProvider.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:176)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.actions.CommonActionProviderDescriptor$1.run(CommonActionProviderDescriptor.java:197)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	  .....................................
+Caused by: java.lang.ClassNotFoundException: org.apache.hadoop.eclipse.dfs.ActionProvider
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+
+	"	2013-03-07T04:04:11.000+0000	2013-03-19T21:00:09.000+0000	[<JIRA Attachment: filename='0001-Fixing-ClassNotFoundException.patch', id='12572483', mimeType='text/x-patch'>]	Fixed	Major
+HDT-17	46	Bundle dependencies should be handled via package export/import	HDT	Bug	Open	[]	0	[]	"The recommended model for wiring OSGi bundles is via package export/import.
+
+(The downside is that this is more of a pain to maintain)."	2013-02-26T11:36:47.000+0000	2013-02-26T11:36:47.000+0000	[]	None	Major
+HDT-16	47	Define Hadoop Location dialog incomplete	HDT	Bug	Open	[]	0	[]	"When you define a Hadoop location, the ""Load from file"" and ""Validate location"" buttons are not enabled.
+
+I haven't checked the source, but I have never seen them enabled. I presume this is a missing feature.
+
+(If not, we need some feedback as to why they're not enabled),"	2013-02-26T11:32:49.000+0000	2013-03-20T15:44:26.000+0000	[]	None	Major
+HDT-15	48	Runtime dependencies not satisfied	HDT	Bug	Resolved	[]	0	[]	"When trying to open a cluster, it gets the error below. I presume there are more necessary jars we're not providing as well.
+
+java.lang.NoClassDefFoundError: org/codehaus/jackson/map/JsonMappingException
+	at org.apache.hdt.core.cluster.HadoopCluster.getJobClient(HadoopCluster.java:484)
+	at org.apache.hdt.core.cluster.HadoopCluster$LocationStatusUpdater.run(HadoopCluster.java:107)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.jackson.map.JsonMappingException
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 3 more
+"	2013-02-26T11:30:12.000+0000	2014-06-20T09:11:10.000+0000	[<JIRA Attachment: filename='HDT-15.patch', id='12574484', mimeType='text/x-patch'>]	Fixed	Major
+HDT-14	49	Hadoop perspective does not open Hadoop Clusters view	HDT	Bug	Resolved	[]	0	[]	"Opening the Hadoop perspective leaves you with a very vanilla set of views, with no obvious connection to Hadoop at all.
+
+It should come up with the  Hadoop Clusters view activated, at a minimum."	2013-02-26T11:20:35.000+0000	2013-03-19T20:58:25.000+0000	[]	Fixed	Major
+HDT-13	50	The Hadoop preferences page does not validate the install location.	HDT	Bug	Resolved	[]	0	[]	"Window > Preferences > Hadoop > Install Location:
+
+1) Does not indicate exactly what it is looking for
+2) Does not verify that you entered a valid install location."	2013-02-26T11:14:33.000+0000	2014-06-23T08:44:33.000+0000	[<JIRA Attachment: filename='0001-HDT-13-Validaing-Hadoop-preference-home-for-the-sele.patch', id='12651925', mimeType='text/x-patch'>, <JIRA Attachment: filename='HDT-13.patch', id='12644081', mimeType='text/x-patch'>]	Fixed	Major
+HDT-12	51	Feature lacks copyright info	HDT	Bug	Resolved	[]	0	[]	The Eclipse feature needs the copyright information added, as well as description, etc.	2013-02-26T11:10:56.000+0000	2013-03-12T18:49:28.000+0000	[]	Fixed	Major
+HDT-11	52	Unresolved reference to hadoop-core jar	HDT	Bug	Resolved	[]	0	[]	"The org.apache.hdt.ui plugin references \Users\amberry\tools\hadoop-1.0.4.jar on its build path, and thus cannot be built out of the box.
+
+It seems to be unnecessary, because the jar is provided in org.apache.hadoop.eclipse."	2013-02-26T10:44:34.000+0000	2013-02-26T10:50:03.000+0000	[]	Fixed	Blocker
+HDT-10	53	The www website link on our project page gets 404	HDT	Documentation	Resolved	[]	0	[]	"Project page: http://incubator.apache.org/projects/hdt.html
+
+404 page: http://incubator.apache.org/hdt/
+"	2013-02-25T08:26:29.000+0000	2013-02-26T14:21:45.000+0000	[]	Fixed	Major
+HDT-9	54	Getting Started Wiki should link to Jira	HDT	Documentation	Resolved	[]	0	[]	"I'd just fix it instead, but I don't have write access to the Wiki it seems.
+
+http://wiki.apache.org/hdt/HDTGettingStarted"	2013-02-25T08:01:04.000+0000	2013-02-25T23:20:13.000+0000	[]	Fixed	Minor
+HDT-8	55	Support projects that use either version of the mapreduce api	HDT	New Feature	Open	[]	0	[]	None	2013-02-12T04:26:12.000+0000	2013-02-12T04:26:12.000+0000	[]	None	Major
+HDT-7	56	Job launching across versions	HDT	New Feature	Resolved	[]	0	[]	Support for launching jobs on clusters running different versions of Hadoop	2013-02-12T04:24:40.000+0000	2014-06-20T08:48:42.000+0000	[<JIRA Attachment: filename='0001-Adding-hadoop2-based-on-2.2-version.patch', id='12649525', mimeType='text/x-patch'>, <JIRA Attachment: filename='0001-Adding-hadoop2-based-on-2.2-version.patch', id='12647312', mimeType='text/x-patch'>, <JIRA Attachment: filename='HDT_7.patch', id='12650513', mimeType='text/x-patch'>, <JIRA Attachment: filename='HDT7.patch', id='12649748', mimeType='text/x-patch'>]	Fixed	Major
+HDT-6	57	Access HDFS across versions	HDT	New Feature	Resolved	[]	0	[]	None	2013-02-12T04:23:12.000+0000	2014-06-20T08:51:54.000+0000	[]	Fixed	Major
+HDT-5	58	Build system	HDT	Task	Resolved	[]	0	[]	Setup up maven/tycho build for plugins to make an update site	2013-02-12T04:21:29.000+0000	2013-03-20T01:12:23.000+0000	[]	Fixed	Major
+HDT-4	59	Copyright text on website pages is white and not visible	HDT	Task	Resolved	[]	0	[]	The copyright text at the bottom of the webpage (index.html, get_involved.html) is white and is not visible.	2013-02-06T16:08:49.000+0000	2013-02-06T22:49:13.000+0000	[]	Fixed	Trivial
+HDT-3	60	Follow the Incubator website requirements	HDT	Task	Closed	[]	0	[]	Incubator websites are required to have the a DISCLAIMER and incubator logo prominently displayed on the website. Refere incubator branding guidelines for more info - http://incubator.apache.org/guides/branding.html	2013-01-27T12:19:26.000+0000	2013-01-27T12:37:44.000+0000	[]	Fixed	Major
+HDT-2	61	Create initial code (plugin/feature etc) from original source	HDT	Task	Resolved	[]	0	[]	None	2013-01-16T04:48:40.000+0000	2013-02-12T04:12:15.000+0000	[]	Fixed	Major
+HDT-1	62	Flesh out hdt website with contributing info and branding	HDT	Task	Resolved	[]	0	[]	None	2013-01-07T21:04:27.000+0000	2013-01-10T20:08:17.000+0000	[]	Fixed	Major
